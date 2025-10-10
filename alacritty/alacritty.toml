@@ -1,0 +1,47 @@
+[window]
+blur = true
+opacity = 0.6
+
+[window.padding]
+x = 4
+y = 2
+
+[cursor.style]
+blinking = "always"
+
+[cursor]
+blink_interval = 400
+blink_timeout = 0
+
+[mouse]
+hide_when_typing = true
+
+[font]
+size = 10.0
+
+[font.bold]
+family = "Fixedsys 2 Monospaced"
+style = "Bold"
+
+[font.bold_italic]
+family = "Fixedsys 2 Monospaced"
+style = "Bold Italic"
+
+[font.italic]
+family = "Fixedsys 2 Monospaced"
+style = "Italic"
+
+[font.normal]
+family = "Fixedsys 2 Monospaced"
+style = "Regular"
+
+[colors.primary]
+background = "#000000"
+
+[general]
+import = [
+    "~/.config/alacritty/themes/alacritty-theme/themes/blood_moon.toml"
+]
+
+[env]
+WINIT_X11_SCALE_FACTOR = "0.9"
