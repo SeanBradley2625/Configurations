@@ -236,10 +236,9 @@ export XDG_SESSION_TYPE=x11
 #    unset XCURSOR_CORE
 #fi
 
-setxkbmap gb
 xset -dpms # Disables Energy Star features
 xset s off # Disables screen saver
 
-nitrogen --restore &
-picom --config /home/senb/.config/picom/picom.conf &
+setxkbmap us
+
 exec i3
