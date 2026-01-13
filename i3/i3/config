@@ -83,7 +83,6 @@ assign [class="Spotify"] $ws13
 assign [class="whatsdesk"] $ws14
 assign [class="vesktop"] $ws15
 assign [class="steam"] $ws16
-assign [class="Protonvpn-app"] $ws20
 
 for_window [class="kcalc"] floating enable
 for_window [class=".*"] border pixel 1
@@ -91,7 +90,6 @@ for_window [class=".*"] border pixel 1
 exec --no-startup-id thunderbird
 exec --no-startup-id alacritty -e newsboat -T rss
 exec --no-startup-id spotify
-exec --no-startup-id protonvpn-app
 
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
@@ -99,8 +97,7 @@ exec --no-startup-id nm-applet
 exec --no-startup-id setxkbmap -option caps:none; xmodmap -e "keycode 66 = Escape"
 exec --no-startup-id gromit-mpx -o 1
 exec --no-startup-id xset s off -dpms
-exec --no-startup-id greenclip daemon
-exec --no-startup-id picom
+exec --no-startup-id $HOME/.bin/greenclip daemon
 
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id nitrogen --set-auto --random /home/senb/Images/wallpapers/wallpapers/ --head=0
@@ -140,7 +137,7 @@ bindsym $mod+i exec librewolf
 bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
-bindsym $mod+m exec qtws /usr/share/qtws-apps/google-maps/google-maps.qtws
+bindsym $mod+m exec silo -a google-maps
 bindsym $mod+n exec alacritty -T rss --hold -e newsboat
 bindsym $mod+o exec setxkbmap us
 bindsym $mod+p exec source $HOME/.bin/books.sh /home/senb/Books/

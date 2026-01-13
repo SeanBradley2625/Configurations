@@ -1,6 +1,7 @@
 [window]
 blur = true
-opacity = 0.6
+opacity = 0.9
+decorations = "full" # "full", "none", "transparent", "buttonless"
 
 [window.padding]
 x = 4
@@ -17,23 +18,57 @@ blink_timeout = 0
 hide_when_typing = true
 
 [font]
-size = 10.0
+offset.y = 2
+offset.x = 1
+size = 10
 
 [font.bold]
-family = "Fixedsys 2 Monospaced"
+family = "BigBlueTermPlus Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "Fixedsys 2 Monospaced"
+family = "BigBlueTermPlus Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "Fixedsys 2 Monospaced"
+family = "BigBlueTermPlus Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "Fixedsys 2 Monospaced"
+family = "BigBlueTermPlus Nerd Font Mono"
 style = "Regular"
+
+#[font.bold]
+#family = "BigBlueTerm437 Nerd Font Mono"
+#style = "Bold"
+#
+#[font.bold_italic]
+#family = "BigBlueTerm437 Nerd Font Mono"
+#style = "Bold Italic"
+#
+#[font.italic]
+#family = "BigBlueTerm437 Nerd Font Mono"
+#style = "Italic"
+#
+#[font.normal]
+#family = "BigBlueTerm437 Nerd Font Mono"
+#style = "Regular"
+
+#[font.bold]
+#family = "Fixedsys 2 Monospaced"
+#style = "Bold"
+#
+#[font.bold_italic]
+#family = "Fixedsys 2 Monospaced"
+#style = "Bold Italic"
+#
+#[font.italic]
+#family = "Fixedsys 2 Monospaced"
+#style = "Italic"
+#
+#[font.normal]
+#family = "Fixedsys 2 Monospaced"
+#style = "Regular"
 
 [colors.primary]
 background = "#000000"
