@@ -1,0 +1,25 @@
+#!/bin/bash
+
+batfile="/home/senb/Programs/Bash/Battery/battery-state.txt"
+batstate=$(cat $batfile)
+state=$(cat /sys/class/power_supply/BAT0/status)
+full=$(cat /sys/class/power_supply/BAT0/charge_full 2>/dev/null || echo "100")
+now=$(cat /sys/class/power_supply/BAT0/charge_now 2>/dev/null || echo "100")
+percentage=$(( ($now*100)/$full ))
+
+if [[ $state == "Discharging" ]]; then
+	case $percentage in
+		100|[8-9][0-9]|7[6-9]) echo -e "[////] $percentage%\n$percentage\n#03c03c";;
+		5[1-9]|6[0-9]|7[0-5] ) echo -e "[///-] $percentage%\n$percentage\n#ffd700";;
+		2[6-9]|[3-4][0-9]|50 ) echo -e "[//--] $percentage%\n$percentage\n#FFC000";;
+		*                    ) echo -e "[/---] $percentage%\n$percentage\n#c40233";;
+	esac
+else
+	echo -n $batstate
+	if [[ $batstate == "[////]" ]]; then
+		sed -i "s/\/\/\/\//----/" $batfile
+	else
+		sed -i "s/-/\//" $batfile
+	fi
+	echo -e " $percentage%\n$percentage\n#007fff"
+fi

@@ -1,0 +1,9 @@
+GenRandPath () {
+  find $HOME/Images/Wallpapers/wallpapers/ -type f -name "*.png" -o -name "*.jpg" | shuf -n1
+}
+
+RAND_PATH_1=$(GenRandPath)
+RAND_PATH_2=$(GenRandPath)
+
+hyprctl hyprpaper wallpaper "eDP-1,$RAND_PATH_1,contain"
+hyprctl hyprpaper wallpaper "DP-2,$RAND_PATH_2,contain"

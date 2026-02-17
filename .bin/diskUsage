@@ -1,0 +1,5 @@
+#!/bin/bash
+
+#python3 /home/senb/Programs/Python/DiskUsage/diskUsage.py
+
+dysk --color no | grep "/dev/" | awk -F '│' '{print $9 ": " $8 " " $6}'| sed 's/ *:/:/' | sed 's/\%.*/\% /' | tr -d '\n' | head -c -1 | awk '{print $0}'

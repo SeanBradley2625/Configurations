@@ -1,0 +1,20 @@
+echo "Undock laptop and press enter to continue"
+read
+
+DISPLAY0=$(xrandr --listmonitors | grep "0:" | awk -F ' ' '{print $4}') 
+xrandr --auto --output $DISPLAY0
+# sed "s/set \$m_left .*/set \$m_left \"$DISPLAY0\"/" /home/senb/.config/i3/config > /home/senb/.config/i3/config
+autorandr --save otg --force
+
+
+echo "Dock laptop and press enter to continue"
+read
+
+xrandr --auto
+DISPLAY1=$(xrandr --listmonitors | grep "1:" | awk -F ' ' '{print $4}')
+xrandr --auto --output $DISPLAY0 --left-of $DISPLAY1
+# sed "s/set \$m_right .*/set \$m_right \"$DISPLAY1\"/" /home/senb/.config/i3/config > /home/senb/.config/i3/config
+autorandr --save docked --force
+
+
+echo "Done!"

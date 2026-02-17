@@ -1,0 +1,9 @@
+SEL=$(greenclip print | sed '/^$/d' | dmenu)
+
+if [[ $SEL != "" ]]; then
+  if [[ $XDG_SESSION_TYPE ]]; then
+    wl-copy "$SEL"
+  else
+    greenclip print "$SEL"
+  fi
+fi

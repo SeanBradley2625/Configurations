@@ -15,7 +15,6 @@ alias nf="echo; fastfetch --color blue; echo; dysk --color yes | sed 's/^/  /'; 
 
 # General
 alias ls="ls --color"
-alias mupdf="mupdf"
 alias googlemaps="qtws /usr/share/qtws-apps/google-maps/google-maps.qtws"
 
 # HDL/FPGA

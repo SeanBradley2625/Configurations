@@ -1,0 +1,10 @@
+vol=$(pamixer --get-volume)
+state=$(pamixer --get-mute | sed 's/true/off/' | sed 's/false/on/')
+echo -e "$vol% $state\n$vol%"
+case $vol in
+	[0-9]) echo "#03c03c";;
+	[1-7][0-9]) echo "#03c03c";;
+	8[0-9]) echo "#ffd700";;
+	9[0-9]) echo "#FF8000";;
+	*) echo "#c40233";;
+esac

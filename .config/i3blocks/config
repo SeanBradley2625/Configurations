@@ -1,0 +1,29 @@
+command=$SCRIPT_DIR/$BLOCK_NAME
+separator_block_width=15
+markup=none
+
+[i3volume]
+command=source $HOME/.bin/volume
+interval=once
+signal=10
+
+[disk]
+command=source $HOME/.bin/diskUsage
+interval=60
+
+[memory]
+command=source $HOME/.bin/memUsage
+separator=true
+interval=30
+
+[cpu_usage]
+command=source $HOME/.bin/cpuUsage
+interval=2
+
+[battery]
+command=source $HOME/.bin/battery
+interval=2
+
+[time]
+command=date '+%Y-%m-%d %H:%M:%S'
+interval=5

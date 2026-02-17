@@ -1,0 +1,13 @@
+input=$(dmenu <&-)
+
+if [[ $input == "" ]]; then
+  return 1
+fi
+
+SEL=$(echo $input | aspell -a | tail -2 | head -1 | sed -e 's/.*: //' | sed -e 's/, /\n/g' | dmenu)
+
+if [[ $XDG_SESSION_TYPE ]]; then
+  wl-copy $SEL
+else
+  greenclip print "$SEL"
+fi

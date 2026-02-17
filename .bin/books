@@ -1,0 +1,49 @@
+# mupdf based script for reading epubs and pdfs
+# author: c0lmcille
+#
+# Running this script opens dmenu with a selection of documents 
+# from the selected directory. Selecting a document opens it. 
+# Upon closing the document, a second dmenu prompt will come up 
+# allowing you to save your page.
+#
+# Usage: source books.sh [Directory where you store your books]
+#
+# Dependancies:
+# - mupdf
+# - dmenu
+
+bookdir=$1
+
+pdf="pdf"
+epub="epub"
+png="png"
+
+prompt_open="Open File:"
+prompt_close="Save Page:"
+
+# TODO create a function for opening mupdf and saving page, add an option for saving the last saved page number. Something like "-" or whatever
+
+page="_page"
+choice="$(ls $bookdir | grep "$pdf\|$epub\|$png" | sed "s/\.$pdf//" | sed "s/\.$epub//" | sed "s/\.$png//" | dmenu -i -p "$prompt_open")" || exit 0
+if [ -f "$bookdir$choice.$pdf" ]; then
+  if [ -f "$bookdir.$choice$page" ]; then
+    mupdf "$bookdir$choice.$pdf" $(cat "$bookdir.$choice$page")
+    echo $(dmenu -p "$prompt_close" < /dev/null || cat "$bookdir.$choice$page") > "$bookdir.$choice$page"
+  else
+    mupdf "$bookdir$choice.$pdf" && echo $(dmenu < /dev/null || cat "$bookdir.$choice$page") > "$bookdir.$choice$page"
+  fi
+elif [ -f "$bookdir$choice.$epub" ]; then
+  if [ -f "$bookdir.$choice$page" ]; then
+    mupdf "$bookdir$choice.$epub" $(cat "$bookdir.$choice$page")
+    echo $(dmenu -p "$prompt_close" < /dev/null || cat "$bookdir.$choice$page") > "$bookdir.$choice$page"
+  else
+    mupdf "$bookdir$choice.$epub" && echo $(dmenu < /dev/null || cat "$bookdir.$choice$page") > "$bookdir.$choice$page"
+  fi
+elif [ -f "$bookdir$choice.$png" ]; then
+  if [ -f "$bookdir.$choice$page" ]; then
+    mupdf "$bookdir$choice.$png" $(cat "$bookdir.$choice$page")
+    echo $(dmenu -p "$prompt_close" < /dev/null || cat "$bookdir.$choice$page") > "$bookdir.$choice$page"
+  else
+    mupdf "$bookdir$choice.$png" && echo $(dmenu < /dev/null || cat "$bookdir.$choice$page") > "$bookdir.$choice$page"
+  fi
+fi

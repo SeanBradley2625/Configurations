@@ -1,0 +1,90 @@
+" ---------------------------------------------
+" -- SBVC - Sean Bradley's Vim Configuration --
+" ---------------------------------------------
+" 01/Oct/25
+
+
+" --------------
+" -- RATIONAL --
+" --------------
+
+"" This configuration is designed to setup stock vim the way I want it while using NO code outside 
+"" of that which is already available in vim, or this single file. All key-binds remain the same so
+""  I can move to any other vim setup and still feel comfortable, the only major changes that will 
+"" ever happen here are visual or benign, for example, setting the theme to Pablo (A stock theme) 
+"" is visual, and making tabs two ACTUAL spaces is benign between vim configurations. I can easily 
+"" take this single file to any machine, whether I have super user privileges or not, and drop into
+"" the exact editor I am used to. No Language Server Protocols or plug-ins required. 
+
+"" The omission of IDE-style features (ie. Language servers) is also intentional from a coding and 
+"" comfort perspective. In short, I am not a fan. For me Vim is a text editor, the best text 
+"" editor, I don't need or want it to be an IDE. If I ever feel a need for that I know where to get
+"" it.
+
+
+" --------------
+" -- DEFAULTS --
+" --------------
+
+"" Boring encoding stuff. Don't know, don't care.
+set fileencodings+=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+set termencoding=utf-8
+set encoding=utf-8
+
+"" Tabbing setup, tabs are two actual spaces and get automatically placed on a new line. Two spaced
+"" tabbing, while controversial, is in my opinion more suitable to verbose languages like VHDL, and
+"" doesn't cause issues with other languages that care about this (ie. Python, Haskell). In 
+"" addition to this, using spaces makes code with in-line comments (something that is very common 
+"" in VHDL) more portable.
+set expandtab
+set tabstop=2 softtabstop=0
+set shiftwidth=2 
+set smarttab
+
+"" Line numbering setup. I use relative line numbering with the actual line number on the same line
+"" as the cursor.
+set nu
+set rnu
+
+"" Allows switching buffers without saving (Changes persist).
+set hidden
+
+"" Sets spell-check by default (Only shows up in comments or raw text)
+"" I set spell checking on by default because I am dyslexic, and it doesn't highlight, and 
+"" therefore disrupt my viewing of code.
+set spell spelllang=en_gb
+
+"" Provides a 10 line offset from the cursor to the top and bottom of the screen.
+set scrolloff=10
+
+"" Allows copy and paste from Vim, not needed if the terminal is configured properly, but its nice
+"" to have just in case.
+"set clipboard^=unnamed,unnamedplus
+
+"" If colorcolumn is being set by default make sure this line is before the colour scheme commands.
+"set colorcolumn=120
+
+
+" -----------
+" -- THEME --
+" -----------
+
+"" I use Pablo because it makes comments grey, so code stands out among lots of comments. This, I 
+"" have found, makes me more likely to write comments, as they don't disrupt my view of code that 
+"" much.
+colorscheme pablo
+
+"" Makes the column a light grey, which I have found is best with the Pablo colour scheme.
+hi Normal guibg=NONE ctermbg=NONE
+hi ColorColumn ctermbg=7
+
+syntax on
+
+" -------------------
+" -- AUTO COMMANDS --
+" -------------------
+
+"" Saves and reloads folds when starting Vim, Very nice to have if working with a big file.
+"" NOTE This also seems to cause some files to not be displayed with syntax highlighting. eg. .bashrc
+"" autocmd BufWinLeave *.* mkview
+"" autocmd BufWinEnter *.* silent loadview

@@ -1,7 +1,7 @@
 set $mod Mod4
 
-set $left_m "eDP1"
-set $right_m "DP2"
+set $left_m "eDP-1"
+set $right_m "DP-2"
 
 set $ws1 "1"
 set $ws2 "2"
@@ -30,11 +30,11 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #e9e9e9 #e9e9e9 #111111 #e9e9e9 #007fff
-client.focused_inactive #c8c8c8 #c8c8c8 #111111 #e9e9e9 #000000
-client.unfocused        #c8c8c8 #c8c8c8 #111111 #e9e9e9 #000000
-client.urgent           #d00000 #d00000 #111111 #e9e9e9 #000000
-client.placeholder      #999999 #999999 #111111 #e9e9e9 #000000
+client.focused          #e9e9e9 #e9e9e9 #111111 #002fff #007fff
+client.focused_inactive #c8c8c8 #c8c8c8 #111111 #000000 #000000
+client.unfocused        #c8c8c8 #c8c8c8 #111111 #000000 #000000
+client.urgent           #d00000 #d00000 #111111 #000000 #000000
+client.placeholder      #999999 #999999 #111111 #000000 #000000
 
 client.background       #ffffff
 
@@ -83,28 +83,27 @@ assign [class="Spotify"] $ws13
 assign [class="whatsdesk"] $ws14
 assign [class="vesktop"] $ws15
 assign [class="steam"] $ws16
-assign [class="Protonvpn-app"] $ws20
+assign [class="protonvpn-app"] $ws20
 
 for_window [class="kcalc"] floating enable
 for_window [class=".*"] border pixel 1
 
+exec_always --no-startup-id autotiling
+exec_always --no-startup-id sleep 2 && nitrogen --set-auto --random /home/senb/Images/Wallpapers/wallpapers/ --head=0 &
+exec_always --no-startup-id sleep 2 && nitrogen --set-auto --random /home/senb/Images/Wallpapers/wallpapers/ --head=1 &
+
 exec --no-startup-id thunderbird
-exec --no-startup-id alacritty -e newsboat -T rss
+exec --no-startup-id alacritty -T rss --hold -e canto-curses
 exec --no-startup-id spotify
 exec --no-startup-id protonvpn-app
-
-exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 exec --no-startup-id setxkbmap -option caps:none; xmodmap -e "keycode 66 = Escape"
 exec --no-startup-id gromit-mpx -o 1
 exec --no-startup-id xset s off -dpms
 exec --no-startup-id greenclip daemon
+exec --no-startup-id flameshot
 exec --no-startup-id picom
-
-exec_always --no-startup-id autotiling
-exec_always --no-startup-id nitrogen --set-auto --random /home/senb/Images/wallpapers/wallpapers/ --head=0
-exec_always --no-startup-id nitrogen --set-auto --random /home/senb/Images/wallpapers/wallpapers/ --head=1
 
 bindsym $mod+Alt_L exec flameshot gui
 
@@ -128,10 +127,11 @@ bindsym $mod+9 workspace number $ws9
 bindsym $mod+0 workspace number $ws10
 bindsym $mod+Return exec alacritty --working-directory $HOME
 bindsym $mod+space focus mode_toggle
+# bindsym $mod+Tab
 bindsym $mod+a exec kcalc
 bindsym $mod+b exec chromium https://www.usevia.app/
 bindsym $mod+c exec vesktop
-bindsym $mod+d exec rofi -show run
+bindsym $mod+d exec source $HOME/.bin/dmenu_run
 # bindsym $mod+e
 bindsym $mod+f fullscreen toggle
 bindsym $mod+g exec steam
@@ -143,15 +143,15 @@ bindsym $mod+l focus right
 bindsym $mod+m exec qtws /usr/share/qtws-apps/google-maps/google-maps.qtws
 bindsym $mod+n exec alacritty -T rss --hold -e newsboat
 bindsym $mod+o exec setxkbmap us
-bindsym $mod+p exec source $HOME/.bin/books.sh /home/senb/Books/
+bindsym $mod+p exec source $HOME/.bin/books $HOME/Books/
 bindsym $mod+q kill
 # bindsym $mod+r
-# bindsym $mod+s
+bindsym $mod+s exec source $HOME/.bin/spell_check
 # bindsym $mod+t
 # bindsym $mod+u
-bindsym $mod+v exec source $HOME/.bin/greenclip_gui.sh
-# bindsym $mod+w
-# bindsym $mod+x
+bindsym $mod+v exec source $HOME/.bin/greenclip_gui
+bindsym $mod+w exec vboxmanage startvm windows
+bindsym $mod+x exec i3lock -f -e -c 000000
 # bindsym $mod+y
 # bindsym $mod+z
 
@@ -167,10 +167,11 @@ bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 # bindsym $mod+Shift+Return
 bindsym $mod+Shift+space floating toggle
+# bindsym $mod+Shift+Tab
 # bindsym $mod+Shift+a
-# bindsym $mod+Shift+b
+bindsym $mod+Shift+b exec chromium https://www.usevia.app/
 bindsym $mod+Shift+c exec whatsdesk
-# bindsym $mod+Shift+d
+bindsym $mod+Shift+d exec source $HOME/.bin/dmenu_kill
 # bindsym $mod+Shift+e
 # bindsym $mod+Shift+f
 # bindsym $mod+Shift+g
@@ -190,7 +191,7 @@ bindsym $mod+Shift+r exec i3-msg restart
 # bindsym $mod+Shift+u
 # bindsym $mod+Shift+v
 # bindsym $mod+Shift+w
-bindsym $mod+Shift+x exec i3lock -f -e -c 000000
+bindsym $mod+Shift+x exit
 # bindsym $mod+Shift+y
 # bindsym $mod+Shift+z
 
@@ -206,6 +207,7 @@ bindsym $mod+Control+9 workspace number $ws19
 bindsym $mod+Control+0 workspace number $ws20
 # bindsym $mod+Control+Return
 # bindsym $mod+Control+space
+# bindsym $mod+Control+Tab
 # bindsym $mod+Control+a
 # bindsym $mod+Control+b
 # bindsym $mod+Control+c
@@ -214,7 +216,7 @@ bindsym $mod+Control+0 workspace number $ws20
 # bindsym $mod+Control+f
 # bindsym $mod+Control+g
 bindsym $mod+Control+h resize shrink width 20 px or 8 ppt
-# bindsym $mod+Control+i
+bindsym $mod+Control+i exec librewolf google.com
 bindsym $mod+Control+j resize grow height 20 px or 8 ppt
 bindsym $mod+Control+k resize shrink height 20 px or 8 ppt
 bindsym $mod+Control+l resize grow width 20 px or 8 ppt
@@ -245,6 +247,7 @@ bindsym $mod+Control+Shift+9 move container to workspace number $ws19
 bindsym $mod+Control+Shift+0 move container to workspace number $ws20
 # bindsym $mod+Control+Shift+Return
 # bindsym $mod+Control+Shift+space
+# bindsym $mod+Control+Shift+Tab
 # bindsym $mod+Control+Shift+a
 # bindsym $mod+Control+Shift+b
 # bindsym $mod+Control+Shift+c
