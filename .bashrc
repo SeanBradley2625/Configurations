@@ -17,11 +17,6 @@ alias nf="echo; fastfetch --color blue; echo; dysk --color yes | sed 's/^/  /'; 
 alias ls="ls --color"
 alias googlemaps="qtws /usr/share/qtws-apps/google-maps/google-maps.qtws"
 
-# HDL/FPGA
-#XILINX_VITIS="/mnt/onetb/Xilinx/Vitis/2024.2/"
-source /mnt/onetb/Xilinx/vivado/pkg/vivado/opt/Xilinx/Vivado/2024.2/settings64.sh
-alias vivado="vivado -nolog -nojournal"
-
 # Haskell
 HASKELLVERSION="9.6.7"
 # alias ghci="ghci-$HASKELLVERSION"

@@ -1,7 +1,7 @@
 [window]
 blur = true
 opacity = 0.9
-decorations = "full" # "full", "none", "transparent", "buttonless"
+decorations = "full"
 
 [window.padding]
 x = 4
@@ -20,55 +20,23 @@ hide_when_typing = true
 [font]
 offset.y = 2
 offset.x = 1
-size = 10
+size = 10.5
 
 [font.bold]
-family = "BigBlueTermPlus Nerd Font Mono"
+family = "Hasklug Nerd Font Mono"
 style = "Bold"
 
 [font.bold_italic]
-family = "BigBlueTermPlus Nerd Font Mono"
+family = "Hasklug Nerd Font Mono"
 style = "Bold Italic"
 
 [font.italic]
-family = "BigBlueTermPlus Nerd Font Mono"
+family = "Hasklug Nerd Font Mono"
 style = "Italic"
 
 [font.normal]
-family = "BigBlueTermPlus Nerd Font Mono"
-style = "Regular"
-
-#[font.bold]
-#family = "BigBlueTerm437 Nerd Font Mono"
-#style = "Bold"
-#
-#[font.bold_italic]
-#family = "BigBlueTerm437 Nerd Font Mono"
-#style = "Bold Italic"
-#
-#[font.italic]
-#family = "BigBlueTerm437 Nerd Font Mono"
-#style = "Italic"
-#
-#[font.normal]
-#family = "BigBlueTerm437 Nerd Font Mono"
-#style = "Regular"
-
-#[font.bold]
-#family = "Fixedsys 2 Monospaced"
-#style = "Bold"
-#
-#[font.bold_italic]
-#family = "Fixedsys 2 Monospaced"
-#style = "Bold Italic"
-#
-#[font.italic]
-#family = "Fixedsys 2 Monospaced"
-#style = "Italic"
-#
-#[font.normal]
-#family = "Fixedsys 2 Monospaced"
-#style = "Regular"
+family = "Hasklug Nerd Font Mono"
+style = "Bold"
 
 [colors.primary]
 background = "#000000"
