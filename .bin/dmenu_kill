@@ -1,1 +1,3 @@
-kill $(ps -au senb -o pid,comm | awk '{ print $1 " " $2 }' | tail +2 | dmenu -i -l 15 | awk '{ print $1 }')
+#! /bin/bash
+
+kill $(ps -au $USER -o pid,comm | awk '{ print $1 " " $2 }' | tail +2 | dmenu -i -l 15 | awk '{ print $1 }')

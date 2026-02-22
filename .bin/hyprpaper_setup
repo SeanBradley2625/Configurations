@@ -1,3 +1,5 @@
+#! /bin/bash
+
 GenRandPath () {
   find $HOME/Images/Wallpapers/wallpapers/ -type f -name "*.png" -o -name "*.jpg" | shuf -n1
 }

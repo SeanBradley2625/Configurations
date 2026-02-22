@@ -1,35 +1,25 @@
-PATH+=":/home/senb/.bin/:/home/senb/.ghcup/bin"
+# Load some aliases
+test -s $HOME/.alias && . $HOME/.alias || true
 
-test -s ~/.alias && . ~/.alias || true
+# Add some stuff to the path
+PATH+=":$HOME/.bin/:$HOME/.ghcup/bin"
+
+# Sets the prompt looks something like this:
+# {time} [user@system] path
+# $> commands
 
 PS1='\[\e[90m\]{\[\e[34m\]\t\[\e[90m\]}\[\e[0m\] [\[\e[94m\]\u\[\e[97m\]@\[\e[94m\]\h\[\e[0m\]] \[\e[97m\]\w\n\[\e[0m\]\\$> '
 
-[ -f "/home/senb/.ghcup/env" ] && . "/home/senb/.ghcup/env" # ghcup-env
-
+# Sets vi mode active, giving the bash prompt vi bindings (YAY!!!)
 set -o vi
 
-# Deploy a nice looking fastfetch
-alias nf="echo; fastfetch --color blue; echo; dysk --color yes | sed 's/^/  /'; echo"
-# nf
-
-
-# General
-alias ls="ls --color"
-alias googlemaps="qtws /usr/share/qtws-apps/google-maps/google-maps.qtws"
-
-# Haskell
+# Haskell environment setup
 HASKELLVERSION="9.6.7"
-# alias ghci="ghci-$HASKELLVERSION"
-# alias ghc="ghc-$HASKELLVERSION"
+[ -f "$HOME/.ghcup/env" ] && . "$HOME/.ghcup/env" # ghcup-env
+. "$HOME/.local/bin/env"
 
+# Cute function that punishes mistypes
 #function command_not_found_handle {
 #  sl
 #  clear
 #}
-
-# phoneinfoga
-NUMVERIFY_API_KEY="c70010da541e8c924d2d3bff0a60a250"
-GOOGLECSE_CX=""
-GOOGLE_API_KEY=""
-
-. "$HOME/.local/bin/env"

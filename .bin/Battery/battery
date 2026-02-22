@@ -1,6 +1,6 @@
-#!/bin/bash
+#! /bin/bash
 
-batfile="/home/senb/Programs/Bash/Battery/battery-state.txt"
+batfile="$(dirname $0)/battery-state.txt"
 batstate=$(cat $batfile)
 state=$(cat /sys/class/power_supply/BAT0/status)
 full=$(cat /sys/class/power_supply/BAT0/charge_full 2>/dev/null || echo "100")

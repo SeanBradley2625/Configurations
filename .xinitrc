@@ -1,3 +1,5 @@
+# This is 99% yoinked from somewhere else, I really should go through and clean this up
+
 # /usr/etc/X11/xinit/xinitrc.common
 #
 # Common code used in X session and X init scripts.
@@ -24,7 +26,7 @@ export XSESSION_IS_UP
 #
 # This should be the default
 #
-TERM=xterm
+TERM=alacritty
 export TERM
 
 #

@@ -1,3 +1,5 @@
+#! /bin/bash
+
 vol=$(pamixer --get-volume)
 state=$(pamixer --get-mute | sed 's/true/off/' | sed 's/false/on/')
 echo -e "$vol% $state\n$vol%"

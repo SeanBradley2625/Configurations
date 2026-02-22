@@ -1,3 +1,5 @@
+#! /bin/bash
+
 SEL=$(greenclip print | sed '/^$/d' | dmenu)
 
 if [[ $SEL != "" ]]; then

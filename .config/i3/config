@@ -89,8 +89,8 @@ for_window [class="kcalc"] floating enable
 for_window [class=".*"] border pixel 1
 
 exec_always --no-startup-id autotiling
-exec_always --no-startup-id sleep 2 && nitrogen --set-auto --random /home/senb/Images/Wallpapers/wallpapers/ --head=0 &
-exec_always --no-startup-id sleep 2 && nitrogen --set-auto --random /home/senb/Images/Wallpapers/wallpapers/ --head=1 &
+exec_always --no-startup-id sleep 2 && nitrogen --set-auto --random $HOME/Images/Wallpapers/wallpapers/ --head=0 &
+exec_always --no-startup-id sleep 2 && nitrogen --set-auto --random $HOME/Images/Wallpapers/wallpapers/ --head=1 &
 
 exec --no-startup-id thunderbird
 exec --no-startup-id alacritty -T rss --hold -e canto-curses

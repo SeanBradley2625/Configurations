@@ -1,1 +1,3 @@
+#! /bin/bash
+
 exec $(compgen -c | dmenu)

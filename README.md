@@ -1,0 +1,738 @@
+```
+.
+├── .alias
+├── .bashrc
+├── .bin
+│   ├── Battery
+│   │   ├── battery
+│   │   └── battery-state.txt
+│   ├── books
+│   ├── cpuUsage
+│   ├── diskUsage
+│   ├── dmenu
+│   ├── dmenu_kill
+│   ├── dmenu_run
+│   ├── fixdisplay
+│   ├── greenclip_gui
+│   ├── gromit_toggle
+│   ├── hyprpaper_setup
+│   ├── memUsage
+│   ├── run_nitrogen
+│   ├── spell_check
+│   └── volume
+├── .config
+│   ├── alacritty
+│   │   ├── alacritty.toml
+│   │   └── themes
+│   │       └── alacritty-theme
+│   │           ├── images
+│   │           │   ├── acme.png
+│   │           │   ├── afterglow.png
+│   │           │   ├── alabaster_dark.png
+│   │           │   ├── alabaster.png
+│   │           │   ├── alacritty_0_12.png
+│   │           │   ├── argonaut.png
+│   │           │   ├── ashes_dark.png
+│   │           │   ├── ashes_light.png
+│   │           │   ├── aura.png
+│   │           │   ├── autumn.png
+│   │           │   ├── ayu_dark.png
+│   │           │   ├── ayu_light.png
+│   │           │   ├── ayu_mirage.png
+│   │           │   ├── baitong.png
+│   │           │   ├── base16_default_dark.png
+│   │           │   ├── blood_moon.png
+│   │           │   ├── bluish.png
+│   │           │   ├── breeze.png
+│   │           │   ├── campbell.png
+│   │           │   ├── carbonfox.png
+│   │           │   ├── catppuccin_frappe.png
+│   │           │   ├── catppuccin_latte.png
+│   │           │   ├── catppuccin_macchiato.png
+│   │           │   ├── catppuccin_mocha.png
+│   │           │   ├── challenger_deep.png
+│   │           │   ├── chicago95.png
+│   │           │   ├── citylights.png
+│   │           │   ├── Cobalt2.png
+│   │           │   ├── cyber_punk_neon.png
+│   │           │   ├── dark_pastels.png
+│   │           │   ├── dark_plus.png
+│   │           │   ├── dark_pride.png
+│   │           │   ├── dawnfox.png
+│   │           │   ├── dayfox.png
+│   │           │   ├── deep_space.png
+│   │           │   ├── doom_one.png
+│   │           │   ├── dracula_plus.png
+│   │           │   ├── dracula.png
+│   │           │   ├── duskfox.png
+│   │           │   ├── enfocado_dark.png
+│   │           │   ├── enfocado_light.png
+│   │           │   ├── everforest_dark.png
+│   │           │   ├── everforest_light.png
+│   │           │   ├── falcon.png
+│   │           │   ├── flat_remix.png
+│   │           │   ├── flexoki.png
+│   │           │   ├── github_dark_colorblind.png
+│   │           │   ├── github_dark_default.png
+│   │           │   ├── github_dark_dimmed.png
+│   │           │   ├── github_dark_high_contrast.png
+│   │           │   ├── github_dark.png
+│   │           │   ├── github_dark_tritanopia.png
+│   │           │   ├── github_light_colorblind.png
+│   │           │   ├── github_light_default.png
+│   │           │   ├── github_light_high_contrast.png
+│   │           │   ├── github_light.png
+│   │           │   ├── github_light_tritanopia.png
+│   │           │   ├── gnome_terminal.png
+│   │           │   ├── google.png
+│   │           │   ├── gotham.png
+│   │           │   ├── gruber_darker.png
+│   │           │   ├── gruvbox_dark.png
+│   │           │   ├── gruvbox_light.png
+│   │           │   ├── gruvbox_material_hard_dark.png
+│   │           │   ├── gruvbox_material_hard_light.png
+│   │           │   ├── gruvbox_material_medium_dark.png
+│   │           │   ├── gruvbox_material_medium_light.png
+│   │           │   ├── hardhacker.png
+│   │           │   ├── hatsunemiku.png
+│   │           │   ├── high_contrast.png
+│   │           │   ├── horizon_dark.png
+│   │           │   ├── hyper.png
+│   │           │   ├── inferno.png
+│   │           │   ├── iris.png
+│   │           │   ├── iterm.png
+│   │           │   ├── kanagawa_dragon.png
+│   │           │   ├── kanagawa_wave.png
+│   │           │   ├── kimbie_dark.png
+│   │           │   ├── kimbie_light.png
+│   │           │   ├── konsole_linux.png
+│   │           │   ├── low_contrast.png
+│   │           │   ├── mariana.png
+│   │           │   ├── marine_dark.png
+│   │           │   ├── material_theme_mod.png
+│   │           │   ├── material_theme.png
+│   │           │   ├── meliora.png
+│   │           │   ├── miasma.png
+│   │           │   ├── midnight_haze.png
+│   │           │   ├── monokai_charcoal.png
+│   │           │   ├── monokai.png
+│   │           │   ├── monokai_pro.png
+│   │           │   ├── moonfly.png
+│   │           │   ├── moonlight_ii_vscode.png
+│   │           │   ├── msx.png
+│   │           │   ├── nightfly.png
+│   │           │   ├── nightfox.png
+│   │           │   ├── night_owlish_light.png
+│   │           │   ├── night_owl.png
+│   │           │   ├── noctis_lux.png
+│   │           │   ├── nordfox.png
+│   │           │   ├── nordic.png
+│   │           │   ├── nord_light.png
+│   │           │   ├── nord.png
+│   │           │   ├── oceanic_next.png
+│   │           │   ├── omni.png
+│   │           │   ├── one_dark.png
+│   │           │   ├── one_light.png
+│   │           │   ├── oxocarbon.png
+│   │           │   ├── palenight.png
+│   │           │   ├── papercolor_dark.png
+│   │           │   ├── papercolor_light.png
+│   │           │   ├── papertheme.png
+│   │           │   ├── pastel_dark.png
+│   │           │   ├── pencil_dark.png
+│   │           │   ├── pencil_light.png
+│   │           │   ├── rainbow.png
+│   │           │   ├── remedy_dark.png
+│   │           │   ├── rigel.png
+│   │           │   ├── rose_pine_dawn.png
+│   │           │   ├── rose_pine_moon.png
+│   │           │   ├── rose_pine.png
+│   │           │   ├── seashells.png
+│   │           │   ├── selenized_dark.png
+│   │           │   ├── selenized_light.png
+│   │           │   ├── seoul256-light.png
+│   │           │   ├── smoooooth.png
+│   │           │   ├── snazzy.png
+│   │           │   ├── solarized_dark.png
+│   │           │   ├── solarized_light.png
+│   │           │   ├── solarized_osaka.png
+│   │           │   ├── sonokai.png
+│   │           │   ├── spacegray.png
+│   │           │   ├── synthwave_84.png
+│   │           │   ├── taerminal.png
+│   │           │   ├── tango_dark.png
+│   │           │   ├── tender.png
+│   │           │   ├── terafox.png
+│   │           │   ├── terminal_app.png
+│   │           │   ├── thelovelace.png
+│   │           │   ├── tokyo_night_enhanced.png
+│   │           │   ├── tokyo_night.png
+│   │           │   ├── tokyo_night_storm.png
+│   │           │   ├── tomorrow_night_bright.png
+│   │           │   ├── tomorrow_night.png
+│   │           │   ├── ubuntu.png
+│   │           │   ├── vesper.png
+│   │           │   ├── vscode.png
+│   │           │   ├── wombat.png
+│   │           │   ├── xterm.png
+│   │           │   └── zenburn.png
+│   │           ├── LICENSE
+│   │           ├── print_colors.sh
+│   │           ├── README.md
+│   │           └── themes
+│   │               ├── acme.toml
+│   │               ├── afterglow.toml
+│   │               ├── alabaster_dark.toml
+│   │               ├── alabaster.toml
+│   │               ├── alacritty_0_12.toml
+│   │               ├── argonaut.toml
+│   │               ├── ashes_dark.toml
+│   │               ├── ashes_light.toml
+│   │               ├── aura.toml
+│   │               ├── autumn.toml
+│   │               ├── ayu_dark.toml
+│   │               ├── ayu_light.toml
+│   │               ├── ayu_mirage.toml
+│   │               ├── baitong.toml
+│   │               ├── base16_default_dark.toml
+│   │               ├── blood_moon.toml
+│   │               ├── bluish.toml
+│   │               ├── breeze.toml
+│   │               ├── campbell.toml
+│   │               ├── carbonfox.toml
+│   │               ├── catppuccin_frappe.toml
+│   │               ├── catppuccin_latte.toml
+│   │               ├── catppuccin_macchiato.toml
+│   │               ├── catppuccin_mocha.toml
+│   │               ├── catppuccin.toml
+│   │               ├── challenger_deep.toml
+│   │               ├── chicago95.toml
+│   │               ├── citylights.toml
+│   │               ├── Cobalt2.toml
+│   │               ├── cyber_punk_neon.toml
+│   │               ├── dark_pastels.toml
+│   │               ├── dark_plus.toml
+│   │               ├── dark_pride.toml
+│   │               ├── dawnfox.toml
+│   │               ├── dayfox.toml
+│   │               ├── deep_space.toml
+│   │               ├── doom_one.toml
+│   │               ├── dracula_plus.toml
+│   │               ├── dracula.toml
+│   │               ├── duskfox.toml
+│   │               ├── enfocado_dark.toml
+│   │               ├── enfocado_light.toml
+│   │               ├── everforest_dark.toml
+│   │               ├── everforest_light.toml
+│   │               ├── falcon.toml
+│   │               ├── flat_remix.toml
+│   │               ├── flexoki.toml
+│   │               ├── github_dark_colorblind.toml
+│   │               ├── github_dark_default.toml
+│   │               ├── github_dark_dimmed.toml
+│   │               ├── github_dark_high_contrast.toml
+│   │               ├── github_dark.toml
+│   │               ├── github_dark_tritanopia.toml
+│   │               ├── github_light_colorblind.toml
+│   │               ├── github_light_default.toml
+│   │               ├── github_light_high_contrast.toml
+│   │               ├── github_light.toml
+│   │               ├── github_light_tritanopia.toml
+│   │               ├── gnome_terminal.toml
+│   │               ├── google.toml
+│   │               ├── gotham.toml
+│   │               ├── gruber_darker.toml
+│   │               ├── gruvbox_dark.toml
+│   │               ├── gruvbox_light.toml
+│   │               ├── gruvbox_material_hard_dark.toml
+│   │               ├── gruvbox_material_hard_light.toml
+│   │               ├── gruvbox_material_medium_dark.toml
+│   │               ├── gruvbox_material_medium_light.toml
+│   │               ├── gruvbox_material.toml
+│   │               ├── hardhacker.toml
+│   │               ├── hatsunemiku.toml
+│   │               ├── high_contrast.toml
+│   │               ├── horizon_dark.toml
+│   │               ├── hyper.toml
+│   │               ├── inferno.toml
+│   │               ├── iris.toml
+│   │               ├── iterm.toml
+│   │               ├── kanagawa_dragon.toml
+│   │               ├── kanagawa_wave.toml
+│   │               ├── kimbie_dark.toml
+│   │               ├── kimbie_light.toml
+│   │               ├── konsole_linux.toml
+│   │               ├── low_contrast.toml
+│   │               ├── Mariana.toml
+│   │               ├── marine_dark.toml
+│   │               ├── material_theme_mod.toml
+│   │               ├── material_theme.toml
+│   │               ├── meliora.toml
+│   │               ├── miasma.toml
+│   │               ├── midnight_haze.toml
+│   │               ├── monokai_charcoal.toml
+│   │               ├── monokai_pro.toml
+│   │               ├── monokai.toml
+│   │               ├── moonfly.toml
+│   │               ├── moonlight_ii_vscode.toml
+│   │               ├── msx.toml
+│   │               ├── nightfly.toml
+│   │               ├── nightfox.toml
+│   │               ├── night_owlish_light.toml
+│   │               ├── night_owl.toml
+│   │               ├── noctis_lux.toml
+│   │               ├── nordfox.toml
+│   │               ├── nordic.toml
+│   │               ├── nord_light.toml
+│   │               ├── nord.toml
+│   │               ├── oceanic_next.toml
+│   │               ├── omni.toml
+│   │               ├── one_dark.toml
+│   │               ├── one_light.toml
+│   │               ├── oxocarbon.toml
+│   │               ├── palenight.toml
+│   │               ├── papercolor_dark.toml
+│   │               ├── papercolor_light.toml
+│   │               ├── papertheme.toml
+│   │               ├── pastel_dark.toml
+│   │               ├── pencil_dark.toml
+│   │               ├── pencil_light.toml
+│   │               ├── rainbow.toml
+│   │               ├── remedy_dark.toml
+│   │               ├── rigel.toml
+│   │               ├── rose_pine_dawn.toml
+│   │               ├── rose_pine_moon.toml
+│   │               ├── rose_pine.toml
+│   │               ├── seashells.toml
+│   │               ├── selenized_dark.toml
+│   │               ├── selenized_light.toml
+│   │               ├── seoul256-light.toml
+│   │               ├── smoooooth.toml
+│   │               ├── snazzy.toml
+│   │               ├── solarized_dark.toml
+│   │               ├── solarized_light.toml
+│   │               ├── solarized_osaka.toml
+│   │               ├── sonokai.toml
+│   │               ├── spacegray.toml
+│   │               ├── synthwave_84.toml
+│   │               ├── taerminal.toml
+│   │               ├── tango_dark.toml
+│   │               ├── tender.toml
+│   │               ├── terafox.toml
+│   │               ├── terminal_app.toml
+│   │               ├── thelovelace.toml
+│   │               ├── tokyo_night_enhanced.toml
+│   │               ├── tokyo_night_storm.toml
+│   │               ├── tokyo_night.toml
+│   │               ├── tomorrow_night_bright.toml
+│   │               ├── tomorrow_night.toml
+│   │               ├── ubuntu.toml
+│   │               ├── vesper.toml
+│   │               ├── vscode.toml
+│   │               ├── wombat.toml
+│   │               ├── xterm.toml
+│   │               └── zenburn.toml
+│   ├── flameshot
+│   │   └── flameshot.ini
+│   ├── gtk-3.0
+│   │   └── settings.ini
+│   ├── hypr
+│   │   ├── hyprland.conf
+│   │   ├── hyprlock.conf
+│   │   ├── hyprpaper.conf
+│   │   └── lockdead.png
+│   ├── i3
+│   │   └── config
+│   ├── i3blocks
+│   │   └── config
+│   ├── picom
+│   │   └── picom.conf
+│   ├── ranger
+│   │   ├── commands_full.py
+│   │   ├── commands.py
+│   │   ├── rc.conf
+│   │   ├── rifle.conf
+│   │   └── scope.sh
+│   └── waybar
+│       ├── config.jsonc
+│       └── style.css
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── config
+│   ├── description
+│   ├── FETCH_HEAD
+│   ├── HEAD
+│   ├── hooks
+│   │   ├── applypatch-msg.sample
+│   │   ├── commit-msg.sample
+│   │   ├── fsmonitor-watchman.sample
+│   │   ├── post-update.sample
+│   │   ├── pre-applypatch.sample
+│   │   ├── pre-commit.sample
+│   │   ├── pre-merge-commit.sample
+│   │   ├── prepare-commit-msg.sample
+│   │   ├── pre-push.sample
+│   │   ├── pre-rebase.sample
+│   │   ├── pre-receive.sample
+│   │   ├── push-to-checkout.sample
+│   │   ├── sendemail-validate.sample
+│   │   └── update.sample
+│   ├── index
+│   ├── info
+│   │   └── exclude
+│   ├── logs
+│   │   ├── HEAD
+│   │   └── refs
+│   │       ├── heads
+│   │       │   └── master
+│   │       └── remotes
+│   │           └── origin
+│   │               ├── HEAD
+│   │               └── master
+│   ├── objects
+│   │   ├── 09
+│   │   │   ├── 93fae08db128f3da11ffb734ebf523a66d63fd
+│   │   │   └── fcd08e4928a15c73d743b9a7e0b7db05d32d98
+│   │   ├── 0b
+│   │   │   └── ab12006d132a0398598af0b3c448cccd554329
+│   │   ├── 0d
+│   │   │   └── 7f2b980272b4693f90c847558e2446106f9d78
+│   │   ├── 0f
+│   │   │   └── 44171ece2fe7d9534682fa473b6e43f262cf68
+│   │   ├── 10
+│   │   │   └── 685f4e63693b26a1cf4f250bbd4bfa364176d8
+│   │   ├── 11
+│   │   │   └── 04540a9254139690e8a203b091dbc9bdcc971e
+│   │   ├── 13
+│   │   │   └── 091a4750865f742b51b81e599ee1ae86fe3281
+│   │   ├── 16
+│   │   │   └── b2468a2f495c79b7b96cc256b272736b8cd196
+│   │   ├── 17
+│   │   │   ├── 906446f8cf7b3cad15e15aac3c73ee8ba38485
+│   │   │   └── d39cd27570fa211bf154a5fe4fb41dbd27490f
+│   │   ├── 18
+│   │   │   ├── ab2d390f21407c21c29cb83fe42976c2674f1e
+│   │   │   └── ad9d30336839a5216611aedd85ecbd1696e1e8
+│   │   ├── 19
+│   │   │   └── 3686babe6e272b68d26d13d2cdd648eed50a14
+│   │   ├── 1b
+│   │   │   └── 542e5920b69c3b06f8e2815c8ad00d3322f56d
+│   │   ├── 1d
+│   │   │   └── db82553b2fd92229a40a364983e3c60077b4d4
+│   │   ├── 1e
+│   │   │   ├── 0ad4c53bebe0f8802a34cef50ad53faea33edd
+│   │   │   ├── 162452ec02b7b5370009891a015deb2ba47fea
+│   │   │   └── 88078c05289cad8b678e41506d4f16bd082f1b
+│   │   ├── 1f
+│   │   │   └── 3958cc9ed82fad86aa4f324ef89197da98f597
+│   │   ├── 20
+│   │   │   └── 0c2ab1de9a26a5190c5c1a5f93cca8c6b98269
+│   │   ├── 21
+│   │   │   └── fb0a29ca045f67c86e77031a7dd8778e4ae163
+│   │   ├── 24
+│   │   │   └── b30ab89ffb74da38465a79344ec5a151b42da4
+│   │   ├── 27
+│   │   │   └── 32aae3cf3d8c84b6d32ff88d061f2641d90888
+│   │   ├── 29
+│   │   │   └── 5d66e3240206d4abc2bc837e0f8121733b2e93
+│   │   ├── 2a
+│   │   │   └── 8431de15a1f0aae1b0c6935ee681ffe9cba29a
+│   │   ├── 2b
+│   │   │   ├── 035c0ceaffe6bec58a9b133fcc6524598c4811
+│   │   │   └── ef53cb656ad8bd7fea8a8d5d2d0174101c0ad1
+│   │   ├── 2e
+│   │   │   └── 8131ae685dcc2d5759add5467d62d01f85465e
+│   │   ├── 2f
+│   │   │   └── 3ea2f99ffac40377c47541eb8cef119d13b603
+│   │   ├── 32
+│   │   │   └── 228e0316c6eda6067725e734d748ddd28c095d
+│   │   ├── 34
+│   │   │   └── 34255c24b85601516d20ad58a0c960ac0f1829
+│   │   ├── 35
+│   │   │   ├── f221707ff83ef453a5ba8ab61d82ab9cc3a80f
+│   │   │   └── f66a7ba3bd62ac9316aa0ebea7d3578e6cba46
+│   │   ├── 3a
+│   │   │   └── c107fbf9749d7378b23f87134365dcc4ae282f
+│   │   ├── 3d
+│   │   │   └── 250a9c0696169334da51fe28e8a5d4c71a43cb
+│   │   ├── 41
+│   │   │   └── 85ff6c01ebf448a3d0b8a30337dd53b56f3974
+│   │   ├── 43
+│   │   │   └── 07b6a2cc9bac849645451f5bfc15d389bf9e9b
+│   │   ├── 46
+│   │   │   └── 3f6f52fd86a8e61b54221afef4830a1a95f338
+│   │   ├── 47
+│   │   │   ├── 1cffaf222619a5a41dbba5a349f5ec40ea306d
+│   │   │   └── e5a8c32b0705e751644f8bf9794d1ee50af3ff
+│   │   ├── 49
+│   │   │   └── ce294c5445f24a19d9efbb308f0a54f10c8a6e
+│   │   ├── 4c
+│   │   │   └── f552c5647cd8b0e3de0fb840055867fd5baf2d
+│   │   ├── 4d
+│   │   │   ├── 0744e1f42300017d0038acc72089e8203fd4ab
+│   │   │   ├── b85396ac88b902cf3139708361e335c8b2c9c8
+│   │   │   ├── efe01f9d069db3da706b484e283665a72e84ba
+│   │   │   └── f6bbb222600b119cc268403f153878a952e30c
+│   │   ├── 4e
+│   │   │   └── bfd0d5638e6858dace2b3ca77db75d6b0d7654
+│   │   ├── 51
+│   │   │   └── 513ed8aaa32f0d1ee69ed14fd477de690ca245
+│   │   ├── 52
+│   │   │   └── 17a291a084352ecbc9d03297ed8c2a14cc814d
+│   │   ├── 54
+│   │   │   └── 56c13791c16dbbecf502b91dd5abcc5d1ef8c6
+│   │   ├── 55
+│   │   │   └── d4e0377077cc349340e980c5085313a01a082e
+│   │   ├── 56
+│   │   │   └── 950e3da79a746bba89f6d98cae633828988dd7
+│   │   ├── 5a
+│   │   │   └── 8af702a5d4e87fc3b1d1ee1c29cdbe2e133286
+│   │   ├── 5b
+│   │   │   └── 9fe1366cb55d7c350a115de5fa7797ae5e0435
+│   │   ├── 5d
+│   │   │   ├── a106246c3a3e50645d5eaa1cf1e4fee49cfe36
+│   │   │   └── efa67796945e1e067df2fc898405ff65b1756d
+│   │   ├── 5f
+│   │   │   └── cd90268663cb8431bf39c5e22ec644e5dc9e0c
+│   │   ├── 60
+│   │   │   └── 6aa9afbe6feb7be06baf2f0b9e49d4ff46d6d4
+│   │   ├── 62
+│   │   │   ├── 1b93c4a0431f501b722a19fa426415b940d562
+│   │   │   └── cfd50f2614c1a571c0c4328ff4ff3631c69430
+│   │   ├── 64
+│   │   │   └── 41733cd743e62bdab450723666c5132d5728b3
+│   │   ├── 68
+│   │   │   └── 4447642d5c2aed47d6b481ad35224b988e35c6
+│   │   ├── 69
+│   │   │   └── 7cc36ca5f4d157ce4b03eafc00f8bc51b95fca
+│   │   ├── 6c
+│   │   │   └── 0e1e3ea5c3b01c89e267172912f6c58eeb3c20
+│   │   ├── 6f
+│   │   │   ├── 60cda23f00f299540d093a428e8b68c19b0d73
+│   │   │   └── 75f25a4f5bf7b5d85f2d09c058115ea1352584
+│   │   ├── 71
+│   │   │   └── e96f6abd10571d5ab2ee277ea14907e70fed8c
+│   │   ├── 73
+│   │   │   └── a1f926b2d69a594c23ba5b052d9c7673e10d3e
+│   │   ├── 74
+│   │   │   └── dedb56e434c2c208f0e7219061a2937747a414
+│   │   ├── 75
+│   │   │   └── dbfffd3dda6a0ea3ec0a427d41f53a1537e347
+│   │   ├── 76
+│   │   │   ├── 21dbe15f2619a203272a793b29b8461fa31d8f
+│   │   │   ├── 3488c203b1daf39eb27a3187b31a6748720cfa
+│   │   │   └── 4823c0344d630a7a8acb33eb8bbc51554835f1
+│   │   ├── 78
+│   │   │   └── b6ca085124cd17add39aec012a040357b2d3b9
+│   │   ├── 7b
+│   │   │   └── 480ddf54326fc15c59e75eebd3d9257c7b2e37
+│   │   ├── 7d
+│   │   │   └── 75307ad3c6b983c2b304407b91ba2a9f941413
+│   │   ├── 83
+│   │   │   └── f7d47607f90288e17779c47d918ccc15a8a8bc
+│   │   ├── 86
+│   │   │   └── f8f55b3c9e6c043ae7bbccc7d8f927ab1e026b
+│   │   ├── 88
+│   │   │   └── 17ef26c1463023b5d5f156cd255ae71fbc93be
+│   │   ├── 8c
+│   │   │   ├── 528379b1439bc4e0be45930396a8a2e825bd24
+│   │   │   ├── 8689a0a996f05cae8b78a0fa44abda80383486
+│   │   │   └── b677b1783d469d9b77cd3c0568652af9605f56
+│   │   ├── 8d
+│   │   │   ├── 3342e049d5d96b529b71215de32de37c3be8c0
+│   │   │   └── 8313bb6a5d46bcee094d5619be28315befb47a
+│   │   ├── 8e
+│   │   │   └── 9bd5e0d3b622881a8e4ce5f58f0247fb9f5009
+│   │   ├── 8f
+│   │   │   └── cfe7a5c02788d975c0f4bb22e4dfbde9f955e1
+│   │   ├── 90
+│   │   │   └── b5f5499feb0f2873067bc07ee41ea4786064fe
+│   │   ├── 91
+│   │   │   └── be5ecf8cea781c1cd914e83adc5ae3428d2b43
+│   │   ├── 92
+│   │   │   ├── 5d5c2dd075f86638f3de849cec460715321c83
+│   │   │   └── 7bb7ceee9e7f43ca6954a2bbdd9b22a4c133ac
+│   │   ├── 93
+│   │   │   └── df2e34eb875963273579d89d85b089d1e2d005
+│   │   ├── 94
+│   │   │   └── b887eb0fde10d8077a9a061ee14e149f2a0c42
+│   │   ├── 95
+│   │   │   └── 49918337134af54dc8c5c550b01a487ebe061c
+│   │   ├── 97
+│   │   │   └── b790965a78ae5c5db0966d793f1dbaf3b6df59
+│   │   ├── 98
+│   │   │   ├── 2b266f82e4f1a6eba5b81bdd493a24af3d83bc
+│   │   │   └── 799001dc8543a8f31e1c155b7a7b4045fb1e56
+│   │   ├── 9a
+│   │   │   └── 6b5838b2372f1ae606d2eaf36d8123015a7eff
+│   │   ├── 9c
+│   │   │   ├── 8fe1df58e88271c5016911cfbb23e2bb061424
+│   │   │   ├── c7bdbde3694a923222bb8261dcbe42d75eba1e
+│   │   │   └── d4468610ebe154cf79cab66f4e20ae344097ed
+│   │   ├── 9f
+│   │   │   └── 9e11bb7ae56f8be6ed77ca4cf98dad44e01720
+│   │   ├── a5
+│   │   │   ├── 3051d52471dcca5dbb01fd79b5c2a3898c6880
+│   │   │   └── 4623a647bf6b22bd72c33b1b001a364c5bc2bb
+│   │   ├── a6
+│   │   │   ├── 3fac025343998664bbe0cc3a223202097fb8f9
+│   │   │   └── c00feb7784dbca27272c5a2f276dea7a302660
+│   │   ├── a7
+│   │   │   └── d11e0d8e7eb4751948ee8d506ec800ca91c36a
+│   │   ├── aa
+│   │   │   └── 32a5a9fa52784099ff434fc25b2fb4829e3d5c
+│   │   ├── ae
+│   │   │   └── cbb33d5ebba358f1f8cfa958059afe859363d0
+│   │   ├── af
+│   │   │   ├── 162758990af6356bd13b695d81c899e951b12a
+│   │   │   └── 8da17da3f601f93619627f16f7be5a11f96b91
+│   │   ├── b2
+│   │   │   └── 130499c31310f083770d3282866187527f33ed
+│   │   ├── b3
+│   │   │   ├── 6fc8d8e1a0fabfad7868c25dbb223f83d8dd33
+│   │   │   └── d8ef46c726cb0ca47132280ea9fb8996be1ef7
+│   │   ├── b7
+│   │   │   └── 90e89274de8f8da961d8cabbe70f797d4be0e5
+│   │   ├── b8
+│   │   │   ├── 0b741ff7fc2ab4e024380aabf4d0ea819ca96a
+│   │   │   └── b0c4d977bef304a76b859e766a5601f9b96826
+│   │   ├── ba
+│   │   │   └── cd59753e947ff55f326318502b868f43eeea64
+│   │   ├── be
+│   │   │   ├── cc1d7a3f6045e945b33d7fa33bbe50b14a1b46
+│   │   │   └── dc2fbb5f6122d9054560c6751a03a9feffa972
+│   │   ├── c0
+│   │   │   └── 9e647ce7741599051033aaa4cd693438c70c6e
+│   │   ├── c1
+│   │   │   └── b4f2a6976dd8df8d8f2821d1340f55bad42bfa
+│   │   ├── c2
+│   │   │   └── fdf89381ba6ae12f8ffa325174bc573039b72f
+│   │   ├── c3
+│   │   │   └── 6a134447792034845c21353891cb32c0eefa2a
+│   │   ├── c4
+│   │   │   └── 7c1eac404cc7e9abbab9dace39adde6dd99ba9
+│   │   ├── c5
+│   │   │   ├── 73a21d3ebe0bdf6c1a89983dee51124b465b78
+│   │   │   └── dec35005f7e91e0603041f926dd26b86ad0e8f
+│   │   ├── c8
+│   │   │   └── 624d9421b56925299dddb10f60732c8e164144
+│   │   ├── d2
+│   │   │   ├── 6c60e941c8d9902229a4b4d1bc3529ddfd5896
+│   │   │   ├── a44dc103589d5a6c85f201a8b922b3c017314c
+│   │   │   └── dd80e562bb2cc64a5df1740762aa06a2d7bf45
+│   │   ├── d6
+│   │   │   └── 18e07567054000eb70f25a759e80c893fbf999
+│   │   ├── d9
+│   │   │   └── f41aa972ab030978969d5c177eabbb7eedfe0c
+│   │   ├── da
+│   │   │   └── f40c0477c25d468a0c041de4e5836b5a36186c
+│   │   ├── dd
+│   │   │   ├── 4321cc08bd273cf546e76c840bc62b6d62236b
+│   │   │   └── df6c33ac373761ada55668151a32e749d8e5ac
+│   │   ├── de
+│   │   │   ├── 7fa2c3f863307059550befb76bbad60d5f0885
+│   │   │   └── eea032ef5fb7944c0b9fb46d80599a8995f9c4
+│   │   ├── e2
+│   │   │   └── 601f9f4ec39cd0ff9b485f58925374d00502ce
+│   │   ├── e4
+│   │   │   └── 7677f151681474c212a7b696ad4f62d5f945ba
+│   │   ├── e6
+│   │   │   └── 9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+│   │   ├── e8
+│   │   │   └── bdfb40c41e4b659fb6f47ed8b4c16a714c3a5f
+│   │   ├── ec
+│   │   │   └── 000a3e19061016134d3452a25420865e7ffe24
+│   │   ├── ee
+│   │   │   └── 98fe81e89db586f31fa2e850a165fb8ab6b15e
+│   │   ├── ef
+│   │   │   └── 9e0bd433a26fbde542a85199782c7e31af6286
+│   │   ├── f0
+│   │   │   ├── 0e0e65872bd84d20fded0ae24e06afddcc35f9
+│   │   │   └── 9515894251217e633b99d8ab932b60c017809c
+│   │   ├── f1
+│   │   │   ├── 69d7855f82c6e793bc3f6f02e7df7cf8d37391
+│   │   │   └── d14d5986884c710fb04cdbef8b232d8cb0cb12
+│   │   ├── f4
+│   │   │   ├── 03ed83ca7b9e82883a1d540df0e70b10cdb0b3
+│   │   │   ├── 61f2e1fad74390c490705d8c547dd42181daad
+│   │   │   └── 87812c38f7c8a6c7faea7c756deeef83d0f7ef
+│   │   ├── f5
+│   │   │   └── c86977d4419e2f263b5b0dea662851417b1858
+│   │   ├── f6
+│   │   │   └── 17e3130d740ac9696dd2a94f7888208fa2c278
+│   │   ├── f7
+│   │   │   └── 1d032012859538ab2c618cf947c23c9b50f22d
+│   │   ├── f8
+│   │   │   ├── 6102c032258bd2ed39d7162fcc1d84132be5c1
+│   │   │   ├── bae2255f9a4f576011355c8242cbb8a88079ce
+│   │   │   └── d48bf9d7d3f8af8a6278b715ab88007586088c
+│   │   ├── info
+│   │   └── pack
+│   │       ├── pack-e718eafff84794a9c5be9b60cac6589cfc0137fb.idx
+│   │       ├── pack-e718eafff84794a9c5be9b60cac6589cfc0137fb.pack
+│   │       └── pack-e718eafff84794a9c5be9b60cac6589cfc0137fb.rev
+│   ├── ORIG_HEAD
+│   ├── packed-refs
+│   └── refs
+│       ├── heads
+│       │   └── master
+│       ├── remotes
+│       │   └── origin
+│       │       ├── HEAD
+│       │       └── master
+│       └── tags
+├── .vim
+│   ├── .netrwhist
+│   ├── spell
+│   │   ├── en.utf-8.add
+│   │   └── en.utf-8.add.spl
+│   ├── view
+│   │   ├── ~=+.bash=
+│   │   ├── ~=+.bash_history=
+│   │   ├── ~=+.bashrc=
+│   │   ├── ~=+.Bin=
+│   │   ├── ~=+.bin=+diskUsage.sh=
+│   │   ├── ~=+.bin=+volume.sh=
+│   │   ├── ~=+Builds=+ani2png=+ani2png.c=
+│   │   ├── ~=+.config=+alacritty=+alacritty.toml=
+│   │   ├── ~=+.config=+gromit-mpx.cfg=
+│   │   ├── ~=+.config=+gtk-3.0=+settings.ini=
+│   │   ├── ~=+.config=+nitrogen=+bg-saved.cfg=
+│   │   ├── ~=+.config=+nitrogen=+nitrogen.cfg=
+│   │   ├── ~=+.config=+picom=+picom.conf=
+│   │   ├── ~=+.config=+rofi=+config.rasi=
+│   │   ├── ~=+cpu_usage.sh=
+│   │   ├── ~=+disk.py=
+│   │   ├── ~=+Downloads=+i2c_master.vhd=
+│   │   ├── ~=+Downloads=+steam-548430.log=
+│   │   ├── =+etc=+gromit-mpx=+gromit-mpx.cfg=
+│   │   ├── =+etc=+pacman.conf=
+│   │   ├── =+etc=+X11=+xorg.conf.d=+80-prime-hunging-fix.conf=
+│   │   ├── ~=+.icons=+default=+index.theme=
+│   │   ├── ~=+.local=+share=+xorg=+Xorg.0.log=
+│   │   ├── ~=+.local=+share=+xorg=+Xorg.1.log=
+│   │   ├── =+mnt=+onetb=+VivadoProjects=+fifo=+fifo.srcs=+sim_1=+new=+fifo_tb.vhd=
+│   │   ├── =+mnt=+onetb=+VivadoProjects=+fifo=+fifo.srcs=+sources_1=+new=+fifo.vhd=
+│   │   ├── =+mnt=+onetb=+VivadoProjects=+fifo=+fifo.srcs=+sources_1=+new=+ram.vhd=
+│   │   ├── =+mnt=+onetb=+Xilinx=+2025.1=+Vitis=+settings64.sh=
+│   │   ├── =+mnt=+onetb=+Xilinx=+2025.1=+Vitis=+.settings64-Vitis_for_HLS.sh=
+│   │   ├── ~=+Notes=+.card=
+│   │   ├── ~=+Notes=+laws_to_life.txt=
+│   │   ├── ~=+Programs=+Bash=+Volume=+volume.sh=
+│   │   ├── ~=+Programs=+Haskell=+HaskellBook=+Chapter13=+Chapter13.cabal=
+│   │   ├── ~=+Programs=+Haskell=+HaskellBook=+Chapter13=+src=+Main.hs=
+│   │   ├── ~=+Programs=+Haskell=+HaskellBook=+Chapter9=+Exercise3.hs=
+│   │   ├── ~=+Programs=+Python=+DiskUsage=+diskUsage.py=
+│   │   ├── ~=+Programs=+VHDL=+AESBlock=+rtl=+aes_block_package.vhd=
+│   │   ├── ~=+Programs=+VHDL=+AESBlock=+rtl=+aes_block_round.vhd=
+│   │   ├── ~=+Programs=+VHDL=+AESBlock=+sim=+aes_block_tb.vhd=
+│   │   ├── ~=+Programs=+VHDL=+Mux=+rtl=+multiplexer.vhd=
+│   │   ├── ~=+Programs=+VHDL=+Templates=+base.vhd=
+│   │   ├── ~=+proxy.txt=
+│   │   ├── ~=+steam-1245620.log=
+│   │   ├── ~=+steam-292030.log=
+│   │   ├── =+usr=+share=+vim=+vim91=+doc=+help.txt=
+│   │   └── ~=+.xinitrc=
+│   └── vimrc
+└── .xinitrc
+```

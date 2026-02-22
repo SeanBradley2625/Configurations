@@ -1,3 +1,5 @@
+#! /bin/bash
+
 STATE=$(ps -aux | awk '{print $11}' | grep gromit-mpx)
 
 if [[ $STATE == "gromit-mpx" ]]; then

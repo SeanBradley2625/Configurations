@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 
-nitrogen --set-auto --random Images/wallpapers/wallpapers/ --head=0 2> /dev/null &
-nitrogen --set-auto --random Images/wallpapers/wallpapers/ --head=1 2> /dev/null &
+nitrogen --set-auto --random $HOME/Images/wallpapers/wallpapers/ --head=0 2> /dev/null &
+nitrogen --set-auto --random $HOME/Images/wallpapers/wallpapers/ --head=1 2> /dev/null &

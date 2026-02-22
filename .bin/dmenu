@@ -1,3 +1,3 @@
-#!/bin/bash
+#! /bin/bash
 
-$HOME/Builds/dmenu/dmenu-5.4/dmenu -fn 'BigBlueTermPlus Nerd Font Mono-9' -h 22 -vi -b
+$HOME/Builds/dmenu/dmenu-5.4/dmenu -fn "Hasklug Nerd Font Mono" -h 22 -vi -b
