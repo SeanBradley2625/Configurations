@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =5
+let g:netrw_dirhistcnt =8
+let g:netrw_dirhist_8='/mnt/onetb/VivadoProjects/vbox/FinalYearDiss/rtl'
+let g:netrw_dirhist_7='/home/senb/Programs/VHDL/AESBlock/sim'
+let g:netrw_dirhist_6='/home/senb/.config/kitty'
 let g:netrw_dirhist_5='/home/senb/Programs/VHDL/AESBlock'
 let g:netrw_dirhist_4='/home/senb/Programs/VHDL/AESBlock/rtl'
 let g:netrw_dirhist_3='/home/senb/Programs/VHDL/AESBlock'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_2='/home/senb/Programs/VHDL'
 let g:netrw_dirhist_1='/home/senb/Programs/Configurations'
 let g:netrw_dirhist_0='/home/senb/.config/ranger'
 let g:netrw_dirhist_9='/home/senb/Builds/dmenu/mew'
-let g:netrw_dirhist_8='/home/senb/.config/picom'
-let g:netrw_dirhist_7='/etc/ly'
-let g:netrw_dirhist_6='/home/senb/.config/i3blocks'

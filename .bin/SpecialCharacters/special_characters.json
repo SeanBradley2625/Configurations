@@ -1,0 +1,184 @@
+{
+  "a": {
+    "upper": [ "Á", "À", "Â", "Ã", "Ä", "Æ", "Å" ],
+    "lower": [ "á", "à", "â", "ã", "ä", "æ" ],
+    "other": [ ]
+  },
+  "b": {
+    "upper": [ ],
+    "lower": [ ],
+    "other": [ "þ", "ß" ]
+  },
+  "c": {
+    "upper": [ "Ç" ],
+    "lower": [ "ç" ],
+    "other": [ ]
+  },
+  "d": {
+    "upper": [ ],
+    "lower": [ ],
+    "other": [ "Ð" ]
+  },
+  "e": {
+    "upper": [ "É", "È", "Ê", "Ë" ],
+    "lower": [ "é", "è", "ê", "ë" ],
+    "other": [ ]
+  },
+  "i": {
+    "upper": [ "Í", "Ì", "Î", "Ï" ],
+    "lower": [ "í", "ì", "î", "ï" ],
+    "other": [ ]
+  },
+  "n": {
+    "upper": [ "Ñ" ],
+    "lower": [ "ñ" ],
+    "other": [ ]
+  },
+  "o": {
+    "upper": [ "Ó", "Ò", "Ô", "Õ", "Ö", "Ø" ],
+    "lower": [ "ó", "ò", "ô", "õ", "ö", "ø" ],
+    "other": [ "ð" ]
+  },
+  "p": {
+    "upper": [ ],
+    "lower": [ ],
+    "other": [ "Þ" ]
+  },
+  "u": {
+    "upper": [ "Ú", "Ù", "Û", "Ü" ],
+    "lower": [ "ú", "ù", "û", "ü" ],
+    "other": [ ]
+  },
+  "y": {
+    "upper": [ "Ý" ],
+    "lower": [ "ý", "ÿ" ],
+    "other": [ ]
+  },
+  "maths": {
+    "upper": [ ],
+    "lower": [ ],
+    "other": [ "×", "÷" ]
+  },
+  "greek": {
+    "Alpha": {
+      "upper": [ "Α" ],
+      "lower": [ "α" ],
+      "other": [ ]
+    },
+    "Beta": {
+      "upper": [ "Β" ],
+      "lower": [ "β" ],
+      "other": [ ]
+    },
+    "Gamma": {
+      "upper": [ "Γ" ],
+      "lower": [ "γ" ],
+      "other": [ ]
+    },
+    "Delta": {
+      "upper": [ "Δ" ],
+      "lower": [ "δ" ],
+      "other": [ ]
+    },
+    "Epsilon": {
+      "upper": [ "Ε" ],
+      "lower": [ "ε" ],
+      "other": [ ]
+    },
+    "Zeta": {
+      "upper": [ "Ζ" ],
+      "lower": [ "ζ" ],
+      "other": [ ]
+    },
+    "Eta": {
+      "upper": [ "Η" ],
+      "lower": [ "η" ],
+      "other": [ ]
+    },
+    "Theta": {
+      "upper": [ "Θ" ],
+      "lower": [ "θ" ],
+      "other": [ ]
+    },
+    "Iota": {
+      "upper": [ "Ι" ],
+      "lower": [ "ι" ],
+      "other": [ ]
+    },
+    "Kappa": {
+      "upper": [ "Κ" ],
+      "lower": [ "κ" ],
+      "other": [ ]
+    },
+    "Lambda": {
+      "upper": [ "Λ" ],
+      "lower": [ "λ" ],
+      "other": [ ]
+    },
+    "Mu": {
+      "upper": [ "Μ" ],
+      "lower": [ "μ" ],
+      "other": [ ]
+    },
+    "Nu": {
+      "upper": [ "Ν" ],
+      "lower": [ "ν" ],
+      "other": [ ]
+    },
+    "Xi": {
+      "upper": [ "Ξ" ],
+      "lower": [ "ξ" ],
+      "other": [ ]
+    },
+    "Omicron"	: {
+      "upper": [ "Ο" ],
+      "lower": [ "ο" ],
+      "other": [ ]
+    },
+    "Pi"	: {
+      "upper": [ "Π" ],
+      "lower": [ "π" ],
+      "other": [ ]
+    },
+    "Rho": {
+      "upper": [ "Ρ" ],
+      "lower": [ "ρ" ],
+      "other": [ ]
+    },
+    "Sigma": {
+      "upper": [ "Σ" ],
+      "lower": [ "σ" ],
+      "other": [ ]
+    },
+    "Tau": {
+      "upper": [ "Τ" ],
+      "lower": [ "τ" ],
+      "other": [ ]
+    },
+    "Upsilon": {
+      "upper": [ "Υ" ],
+      "lower": [ "υ" ],
+      "other": [ ]
+    },
+    "Phi": {
+      "upper": [ "Φ" ],
+      "lower": [ "φ" ],
+      "other": [ ]
+    },
+    "Chi": {
+      "upper": [ "Χ" ],
+      "lower": [ "χ" ],
+      "other": [ ]
+    },
+    "Psi": {
+      "upper": [ "Ψ" ],
+      "lower": [ "ψ" ],
+      "other": [ ]
+    },
+    "Omega": {
+      "upper": [ "Ω" ],
+      "lower": [ "ω" ],
+      "other": [ ]
+    }
+  }
+}

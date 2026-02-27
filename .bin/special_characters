@@ -1,0 +1,50 @@
+#!/bin/bash
+
+u_t=1
+l_t=1
+o_t=1
+
+while getopts "p:uloa" opt; do
+  case $opt in
+    p) JSON_PATH="$OPTARG" ;;
+    u) u_t=1; l_t=0; o_t=0;;
+    l) u_t=0; l_t=1; o_t=0;;
+    o) u_t=0; l_t=0; o_t=1;;
+    a) u_t=1; l_t=1; o_t=1;;
+  esac
+done
+
+echo $JSON_PATH
+
+LOWER=""
+UPPER=""
+OTHER=""
+
+KEYS="$(jq -c "keys_unsorted" $JSON_PATH | sed 's/"//g;s/,/ /g;s/\[//g;s/\]//g')"
+CHAR_PATH+=".$(echo $KEYS | sed 's/ /\n/g' | dmenu)" || exit 0
+
+DONE="False"
+if [[ $KEYS =~ $(echo $CHAR_PATH | awk -F '.' '{print $NF}') ]]; then
+  while [[ $DONE = "False" ]]; do
+
+    KEYS="$(jq -c "$CHAR_PATH | keys_unsorted" $JSON_PATH | sed 's/"//g;s/,/ /g;s/\[//g;s/\]//g')"
+
+    if [[ $(echo $KEYS | sed 's/ /\n/g' | grep -cE "other|lower|upper") > 0 ]]; then
+      UPPER="$([[ $u_t = 1 ]] && jq -c "$CHAR_PATH.upper" $JSON_PATH | sed 's/"//g;s/,/\n/g;s/\[//g;s/\]//g')"
+      LOWER="$([[ $l_t = 1 ]] && jq -c "$CHAR_PATH.lower" $JSON_PATH | sed 's/"//g;s/,/\n/g;s/\[//g;s/\]//g')"
+      OTHER="$([[ $o_t = 1 ]] && jq -c "$CHAR_PATH.other" $JSON_PATH | sed 's/"//g;s/,/\n/g;s/\[//g;s/\]//g')"
+      if [[ $XDG_SESSION_TYPE = "wayland" ]]; then
+        wl-copy $(echo -e "$LOWER\n$UPPER\n$OTHER" | sed -e '/^$/d' | dmenu || exit 0)
+      else
+        greenclip print "$(echo -e "$LOWER\n$UPPER\n$OTHER" | sed -e '/^$/d' | dmenu || exit 0)"
+      fi
+      DONE="True"
+    else 
+      CHAR_PATH+=".$(echo $KEYS | sed 's/ /\n/g' | dmenu)" || exit 0
+      if [[ ! $KEYS =~ $(echo $CHAR_PATH | awk -F '.' '{print $NF}') ]]; then
+        DONE="True"
+      fi
+    fi
+
+  done
+fi
