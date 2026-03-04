@@ -1,70 +1,70 @@
 {
-  "a": {
+  "A": {
     "upper": [ "Á", "À", "Â", "Ã", "Ä", "Æ", "Å" ],
     "lower": [ "á", "à", "â", "ã", "ä", "æ" ],
     "other": [ ]
   },
-  "b": {
+  "B": {
     "upper": [ ],
     "lower": [ ],
     "other": [ "þ", "ß" ]
   },
-  "c": {
+  "C": {
     "upper": [ "Ç" ],
     "lower": [ "ç" ],
     "other": [ ]
   },
-  "d": {
+  "D": {
     "upper": [ ],
     "lower": [ ],
     "other": [ "Ð" ]
   },
-  "e": {
+  "E": {
     "upper": [ "É", "È", "Ê", "Ë" ],
     "lower": [ "é", "è", "ê", "ë" ],
     "other": [ ]
   },
-  "i": {
+  "I": {
     "upper": [ "Í", "Ì", "Î", "Ï" ],
     "lower": [ "í", "ì", "î", "ï" ],
     "other": [ ]
   },
-  "l": {
+  "L": {
     "upper": [ "Ĺ", "Ļ", "Ľ", "Ŀ", "Ł" ],
     "lower": [ "ĺ", "ļ", "ľ", "ŀ", "ł" ],
     "other": [ ]
   },
-  "n": {
+  "N": {
     "upper": [ "Ñ" ],
     "lower": [ "ñ" ],
     "other": [ ]
   },
-  "o": {
+  "O": {
     "upper": [ "Ó", "Ò", "Ô", "Õ", "Ö", "Ø" ],
     "lower": [ "ó", "ò", "ô", "õ", "ö", "ø" ],
     "other": [ "ð" ]
   },
-  "p": {
+  "P": {
     "upper": [ ],
     "lower": [ ],
     "other": [ "Þ" ]
   },
-  "u": {
+  "U": {
     "upper": [ "Ú", "Ù", "Û", "Ü" ],
     "lower": [ "ú", "ù", "û", "ü" ],
     "other": [ ]
   },
-  "y": {
+  "Y": {
     "upper": [ "Ý" ],
     "lower": [ "ý", "ÿ" ],
     "other": [ ]
   },
-  "maths": {
+  "Maths": {
     "upper": [ ],
     "lower": [ ],
     "other": [ "×", "÷" ]
   },
-  "greek": {
+  "Greek": {
     "Alpha": {
       "upper": [ "Α" ],
       "lower": [ "α" ],
@@ -135,12 +135,12 @@
       "lower": [ "ξ" ],
       "other": [ ]
     },
-    "Omicron"	: {
+    "Omicron" : {
       "upper": [ "Ο" ],
       "lower": [ "ο" ],
       "other": [ ]
     },
-    "Pi"	: {
+    "Pi" : {
       "upper": [ "Π" ],
       "lower": [ "π" ],
       "other": [ ]
@@ -184,6 +184,759 @@
       "upper": [ "Ω" ],
       "lower": [ "ω" ],
       "other": [ ]
+    }
+  },
+  "Emoji": {
+    "Face_Smiling": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "😀", "😃", "😄", "😁", "😆", "😅", "🤣", "😂", "🙂", "🙃", "🫠", "😉", "😊", "😇" ]
+    },
+    "Face_Affection": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🥰", "😍", "🤩", "😘", "😗", "☺", "😚", "😙", "🥲" ]
+    },
+    "Face_Tongue": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "😋", "😛", "😜", "🤪", "😝", "🤑" ]
+    },
+    "Face_Hand": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🤗", "🤭", "🫢", "🫣", "🤫", "🤔", "🫡" ]
+    },
+    "Face_Neutral-Skeptical":{
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🤐", "🤨", "😐", "😑", "😶", "🫥", "😏", "😒", "🙄", "😬", "🤥", "🫨" ]
+    },
+    "Face_Sleepy": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "😌", "😔", "😪", "🤤", "😴", "🫩" ]
+    },
+    "Face_Unwell": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "😷", "🤒", "🤕", "🤢", "🤮", "🤧", "🥵", "🥶", "🥴", "😵", "🤯" ]
+    },
+    "Face_Hat": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🤠", "🥳" ]
+    },
+    "Face_Glasses": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "😎", "🤓", "🧐", "🥸" ]
+    },
+    "Face_Concerned": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "😕", "🫤", "😟", "🙁", "☹", "😮", "😯", "😲", "😳", "🫪", "🥺", "🥹", "😦", "😧", "😨", "😰", "😥", "😢", "😭", "😱", "😖", "😣", "😞", "😓", "😩", "😫", "🥱" ]
+    },
+    "Face_Negative": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "😤", "😡", "😠", "🤬", "😈", "👿", "💀", "☠" ]
+    },
+    "Face_Costume": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "💩", "🤡", "👹", "👺", "👻", "👽", "👾", "🤖" ]
+    },
+    "Cat_Face": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾" ]
+    },
+    "Monkey_Face": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🙈", "🙉", "🙊" ]
+    },
+    "Heart": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "💌", "💘", "💝", "💖", "💗", "💓", "💞", "💕", "💟", "❣", "💔", "❤", "🩷", "🧡", "💛", "💚", "💙", "🩵", "💜", "🤎", "🖤", "🩶", "🤍" ]
+    },
+    "Emotion": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "💋", "💯", "💢", "🫯", "💥", "💫", "💦", "💨", "💬", "💭", "💤" ]
+    },
+    "Hand_Fingers_open": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👋", "🤚", "🖐", "✋", "🖖", "🫱", "🫲", "🫳", "🫴", "🫷", "🫸" ]
+    },
+    "Hand_Fingers_Partial": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👌", "🤌", "🤏", "✌", "🤞", "🫰", "🤟", "🤘", "🤙" ]
+    },
+    "Hand_Single_Finger": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👈", "👉", "👆", "🖕", "👇", "☝", "🫵" ]
+    },
+    "Hand_Fingers_Closed": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👍", "👎", "✊", "👊", "🤛", "🤜" ]
+    },
+    "Hands": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👏", "🙌", "🫶", "👐", "🤲", "🤝", "🙏" ]
+    },
+    "Hand_Prop": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "✍", "💅", "🤳" ]
+    },
+    "Body_Parts": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "💪", "🦾", "🦿", "🦵", "🦶", "👂", "🦻", "👃", "🧠", "🫀", "🫁", "🦷", "🦴", "👀", "👅", "👄", "🫦" ]
+    },
+    "Person": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👶", "🧒", "👦", "👧", "🧑", "👱", "👨", "🧔", "👩", "🧓", "👴", "👵" ]
+    },
+    "Person_Gesture": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🙍", "🙎", "🙅", "🙆", "💁", "🙋", "🧏", "🙇", "🤦", "🤷" ]
+    },
+    "Person_Role": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👮", "🕵", "💂", "🥷", "👷", "🫅", "🤴", "👸", "👳", "👲", "🧕", "🤵", "👰", "🤰", "🫃", "🫄", "🤱" ]
+    },
+    "Person_Fantasy": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👼", "🎅", "🤶", "🦸", "🦹", "🧙", "🧚", "🧛", "🧜", "🧝", "🧞", "🧟", "🧌", "🫈" ]
+    },
+    "Person_Activity": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "💆", "💇", "🚶", "🧍", "🧎", "🏃", "💃", "🕺", "🕴", "👯", "🧖", "🧗" ]
+    },
+    "Person_Sport": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🤺", "🏇", "🏂", "🏌", "🏄", "🚣", "🏊", "⛹", "🏋", "🚴", "🚵", "🤸", "🤼", "🤽", "🤾", "🤹" ]
+    },
+    "Person_Resting": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🧘", "🛀", "🛌" ]
+    },
+    "Family": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👭", "👫", "👬", "💏", "💑" ]
+    },
+    "Person_Symbol": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👤", "👥", "🫂", "👪", "👣", "🫆" ]
+    },
+    "Hair_Style": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🦰", "🦱", "🦳", "🦲" ]
+    },
+    "Animal_Mammal": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🐵", "🐒", "🦍", "🦧", "🐶", "🐕", "🦮", "🐩", "🐺", "🦊", "🦝", "🐱", "🐈", "🦁", "🐯", "🐅", "🐆", "🐴", "🫎", "🫏", "🐎", "🦄", "🦓", "🦌", "🦬", "🐮", "🐂", "🐃", "🐄", "🐷", "🐖", "🐗", "🐽", "🐏", "🐑", "🐐", "🐪", "🐫", "🦙", "🦒", "🐘", "🦣", "🦏", "🦛", "🐭", "🐁", "🐀", "🐹", "🐰", "🐇", "🦫", "🦔", "🦇", "🐻", "🐨", "🐼", "🦥", "🦦", "🦨", "🦘", "🦡", "🐾" ]
+    },
+    "Animal_Bird": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🦃", "🐔", "🐓", "🐣", "🐤", "🐥", "🐦", "🐧", "🦅", "🦆", "🦢", "🦉", "🦤", "🪶", "🦩", "🦚", "🦜", "🪽", "🪿" ]
+    },
+    "Animal_Amphibian": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🐸" ]
+    },
+    "Animal_Reptile": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🐊", "🐢", "🦎", "🐍", "🐲", "🐉", "🦕", "🦖" ]
+    },
+    "Animal_Marine": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🐳", "🐋", "🐬", "🫍", "🦭", "🐟", "🐠", "🐡", "🦈", "🐙", "🐚", "🪸", "🪼", "🦀", "🦞", "🦐", "🦑", "🦪" ]
+    },
+    "Animal_Bug": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🐌", "🦋", "🐛", "🐜", "🐝", "🪲", "🐞", "🦗", "🪳", "🦂", "🦟", "🪰", "🪱", "🦠" ]
+    },
+    "Plant_Flower": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "💐", "🌸", "💮", "🪷", "🌹", "🥀", "🌺", "🌻", "🌼", "🌷", "🪻" ]
+    },
+    "Plant_Other": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🌱", "🪴", "🌲", "🌳", "🌴", "🌵", "🌾", "🌿", "☘", "🍀", "🍁", "🍂", "🍃", "🪹", "🪺", "🍄", "🪾" ]
+    },
+    "Food_Fruit": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🍇", "🍈", "🍉", "🍊", "🍋", "🍌", "🍍", "🥭", "🍎", "🍏", "🍐", "🍑", "🍒", "🍓", "🫐", "🥝", "🍅", "🫒", "🥥" ]
+    },
+    "Food_Vegetable": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🥑", "🍆", "🥔", "🥕", "🌽", "🫑", "🥒", "🥬", "🥦", "🧄", "🧅", "🥜", "🫘", "🌰", "🫚", "🫛", "🫜" ]
+    },
+    "Food_Prepared": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🍞", "🥐", "🥖", "🫓", "🥨", "🥯", "🥞", "🧇", "🧀", "🍖", "🍗", "🥩", "🥓", "🍔", "🍟", "🍕", "🌭", "🥪", "🌮", "🌯", "🫔", "🥙", "🧆", "🥚", "🍳", "🥘", "🍲", "🫕", "🥣", "🥗", "🍿", "🧈", "🧂", "🥫" ]
+    },
+    "Food_Asian": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🍱", "🍘", "🍙", "🍚", "🍛", "🍜", "🍝", "🍠", "🍢", "🍣", "🍤", "🍥", "🥮", "🍡", "🥟", "🥠", "🥡" ]
+    },
+    "Food_Sweet": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🍦", "🍧", "🍨", "🍩", "🍪", "🎂", "🍰", "🧁", "🥧", "🍫", "🍬", "🍭", "🍮", "🍯" ]
+    },
+    "Drink": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🍼", "🥛", "☕", "🫖", "🍵", "🍶", "🍾", "🍷", "🍸", "🍹", "🍺", "🍻", "🥂", "🥃", "🫗", "🥤", "🧋", "🧃", "🧉", "🧊" ]
+    },
+    "Dishware": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🥢", "🍴", "🥄", "🔪", "🫙", "🏺" ]
+    },
+    "Place_Map": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🌍", "🌎", "🌏", "🌐", "🗾", "🧭" ]
+    },
+    "Place_Geographic": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🛘", "🌋", "🗻" ]
+    },
+    "Place_Building": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🧱", "🪨", "🪵", "🛖", "🏠", "🏡", "🏢", "🏣", "🏤", "🏥", "🏦", "🏨", "🏩", "🏪", "🏫", "🏬", "🏭", "🏯", "🏰", "💒", "🗼", "🗽" ]
+    },
+    "Place_Religious": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "⛪", "🕌", "🛕", "🕍", "🕋" ]
+    },
+    "Place_Other": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "⛲", "⛺", "🌁", "🌃", "🌄", "🌅", "🌆", "🌇", "🌉", "♨", "🎠", "🛝", "🎡", "🎢", "💈", "🎪" ]
+    },
+    "Transport_Ground": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🚂", "🚃", "🚄", "🚅", "🚆", "🚇", "🚈", "🚉", "🚊", "🚝", "🚞", "🚋", "🚌", "🚍", "🚎", "🚐", "🚑", "🚒", "🚓", "🚔", "🚕", "🚖", "🚗", "🚘", "🚙", "🛻", "🚚", "🚛", "🚜", "🛵", "🦽", "🦼", "🛺", "🚲", "🛴", "🛹", "🛼", "🚏", "⛽", "🛞", "🚨", "🚥", "🚦", "🛑", "🚧" ]
+    },
+    "Transport_Water": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "⚓", "🛟", "⛵", "🛶", "🚤", "🚢" ]
+    },
+    "Transport_Air": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "✈", "🛫", "🛬", "🪂", "💺", "🚁", "🚟", "🚠", "🚡", "🚀", "🛸" ]
+    },
+    "Hotel": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🧳" ]
+    },
+    "Time": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "⌛", "⏳", "⌚", "⏰", "⏱", "⏲", "🕛", "🕧", "🕐", "🕜", "🕑", "🕝", "🕒", "🕞", "🕓", "🕟", "🕔", "🕠", "🕕", "🕡", "🕖", "🕢", "🕗", "🕣", "🕘", "🕤", "🕙", "🕥", "🕚", "🕦" ]
+    },
+    "Sky_And_Weather": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘", "🌙", "🌚", "🌛", "🌜", "☀", "🌝", "🌞", "🪐", "⭐", "🌟", "🌠", "🌌", "☁", "⛅", "🌀", "🌈", "🌂", "☂", "☔", "⚡", "❄", "☃", "⛄", "☄", "🔥", "💧", "🌊" ]
+    },
+    "Event": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🎃", "🎄", "🎆", "🎇", "🧨", "✨", "🎈", "🎉", "🎊", "🎋", "🎍", "🎎", "🎏", "🎐", "🎑", "🧧", "🎀", "🎁", "🎫" ]
+    },
+    "Award_Medal": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🏆", "🏅", "🥇", "🥈", "🥉" ]
+    },
+    "Sport": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "⚽", "⚾", "🥎", "🏀", "🏐", "🏈", "🏉", "🎾", "🥏", "🎳", "🏏", "🏑", "🏒", "🥍", "🏓", "🏸", "🥊", "🥋", "🥅", "⛳", "🎣", "🤿", "🎽", "🎿", "🛷", "🥌" ]
+    },
+    "Game": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🎯", "🪀", "🪁", "🔫", "🎱", "🔮", "🪄", "🎮", "🎰", "🎲", "🧩", "🧸", "🪅", "🪩", "🪆", "♠", "♥", "♦", "♣", "♟", "🃏", "🀄", "🎴" ]
+    },
+    "Arts_And_Crafts": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🎭", "🎨", "🧵", "🪡", "🧶", "🪢" ]
+    },
+    "Clothing": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "👓", "🥽", "🥼", "🦺", "👔", "👕", "👖", "🧣", "🧤", "🧥", "🧦", "👗", "👘", "🥻", "🩱", "🩲", "🩳", "👙", "👚", "🪭", "👛", "👜", "👝", "🎒", "🩴", "👞", "👟", "🥾", "🥿", "👠", "👡", "🩰", "👢", "🪮", "👑", "👒", "🎩", "🎓", "🧢", "🪖", "📿", "💄", "💍", "💎" ]
+    },
+    "Sound": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🔇", "🔈", "🔉", "🔊", "📢", "📣", "📯", "🔔", "🔕" ]
+    },
+    "Music": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🎼", "🎵", "🎶", "🎤", "🎧", "📻" ]
+    },
+    "Musical_Instrument": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🎷", "🎺", "🪊", "🪗", "🎸", "🎹", "🎻", "🪕", "🥁", "🪘", "🪇", "🪈", "🪉" ]
+    },
+    "Phone": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "📱", "📲", "☎", "📞", "📟", "📠" ]
+    },
+    "Computer": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🔋", "🪫", "🔌", "💻", "⌨", "💽", "💾", "💿", "📀", "🧮" ]
+    },
+    "Light_And_Video": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🎥", "🎬", "📺", "📷", "📸", "📹", "📼", "🔍", "🔎", "💡", "🔦", "🏮", "🪔" ]
+    },
+    "Book_Paper": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "📔", "📕", "📖", "📗", "📘", "📙", "📚", "📓", "📒", "📃", "📜", "📄", "📰", "📑", "🔖" ]
+    },
+    "Money": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🪙", "💰", "🪎", "💴", "💵", "💶", "💷", "💸", "💳", "🧾", "💹" ]
+    },
+    "Mail": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "✉", "📧", "📨", "📩", "📤", "📥", "📦", "📫", "📪", "📬", "📭", "📮" ]
+    },
+    "Writing": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "✏", "✒", "📝" ]
+    },
+    "Office": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "💼", "📁", "📂", "📅", "📆", "📇", "📈", "📉", "📊", "📋", "📌", "📍", "📎", "📏", "📐", "✂" ]
+    },
+    "Lock": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🔒", "🔓", "🔏", "🔐", "🔑" ]
+    },
+    "Tool": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🔨", "🪓", "⚒", "⚔", "💣", "🪃", "🏹", "🪚", "🔧", "🪛", "🔩", "⚙", "⚖", "🦯", "🔗", "🪝", "🧰", "🧲", "🪜", "🪏" ]
+    },
+    "Science": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "⚗", "🧪", "🧫", "🧬", "🔬", "🔭", "📡" ]
+    },
+    "Medical": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "💉", "🩸", "💊", "🩹", "🩼", "🩺", "🩻" ]
+    },
+    "Household": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🚪", "🛗", "🪞", "🪟", "🪑", "🚽", "🪠", "🚿", "🛁", "🪤", "🪒", "🧴", "🧷", "🧹", "🧺", "🧻", "🪣", "🧼", "🫧", "🪥", "🧽", "🧯", "🛒" ]
+    },
+    "Other_Object": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🚬", "⚰", "🪦", "⚱", "🧿", "🪬", "🗿", "🪧", "🪪" ]
+    },
+    "Transport_Sign": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🏧", "🚮", "🚰", "♿", "🚹", "🚺", "🚻", "🚼", "🚾", "🛂", "🛃", "🛄", "🛅" ]
+    },
+    "Warning": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "⚠", "🚸", "⛔", "🚫", "🚳", "🚭", "🚯", "🚱", "🚷", "📵", "🔞", "☢", "☣" ]
+    },
+    "Arrow": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "⬆", "↗", "➡", "↘", "⬇", "↙", "⬅", "↖", "↕", "↔", "↩", "↪", "⤴", "⤵", "🔃", "🔄", "🔙", "🔚", "🔛", "🔜", "🔝" ]
+    },
+    "Religion": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🛐", "⚛", "✡", "☸", "☯", "✝", "☦", "☪", "☮", "🕎", "🔯", "🪯" ]
+    },
+    "Zodiac": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "♈", "♉", "♊", "♋", "♌", "♍", "♎", "♏", "♐", "♑", "♒", "♓", "⛎" ]
+    },
+    "AV_Symbol": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🔀", "🔁", "🔂", "▶", "⏩", "⏭", "⏯", "◀", "⏪", "⏮", "🔼", "⏫", "🔽", "⏬", "⏸", "⏹", "⏺", "⏏", "🎦", "🔅", "🔆", "📶", "🛜", "📳", "📴" ]
+    },
+    "Gender": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "♀", "♂", "⚧" ]
+    },
+    "Math": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "✖", "➕", "➖", "➗", "🟰", "♾" ]
+    },
+    "Punctuation": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "‼", "⁉", "❓", "❔", "❕", "❗", "〰" ]
+    },
+    "Currency": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "💱", "💲" ]
+    },
+    "Other_Symbol": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "⚕", "♻", "⚜", "🔱", "📛", "🔰", "⭕", "✅", "☑", "✔", "❌", "❎", "➰", "➿", "〽", "✳", "✴", "❇", "©", "®", "™", "🫟" ]
+    },
+    "Keycap": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "#️⃣", "*️⃣", "0️⃣", "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟" ]
+    },
+    "Alphanum": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🔠", "🔡", "🔢", "🔣", "🔤", "🅰", "🆎", "🅱", "🆑", "🆒", "🆓", "ℹ", "🆔", "Ⓜ", "🆕", "🆖", "🅾", "🆗", "🅿", "🆘", "🆙", "🆚", "🈁", "🈂", "🈷", "🈶", "🈯", "🉐", "🈹", "🈚", "🈲", "🉑", "🈸", "🈴", "🈳", "㊗", "㊙", "🈺", "🈵" ]
+    },
+    "Geometric": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🔴", "🟠", "🟡", "🟢", "🔵", "🟣", "🟤", "⚫", "⚪", "🟥", "🟧", "🟨", "🟩", "🟦", "🟪", "🟫", "⬛", "⬜", "◼", "◻", "◾", "◽", "▪", "▫", "🔶", "🔷", "🔸", "🔹", "🔺", "🔻", "💠", "🔘", "🔳", "🔲" ]
+    },
+    "Flag": {
+      "upper": [ ],
+      "lower": [ ],
+      "other": [ "🏁", "🚩", "🎌", "🏴", "🏳️" ]
+    },
+    "flag": {
+      "country": {
+        "Ascension_Island": {"upper": [], "lower": [], "other": ["🇦🇨"]},
+        "Andorra": {"upper": [], "lower": [], "other": ["🇦🇩"]},
+        "United_Arab_Emirates": {"upper": [], "lower": [], "other": ["🇦🇪"]},
+        "Afghanistan": {"upper": [], "lower": [], "other": ["🇦🇫"]},
+        "Antigua_And_Barbuda": {"upper": [], "lower": [], "other": ["🇦🇬"]},
+        "Anguilla": {"upper": [], "lower": [], "other": ["🇦🇮"]},
+        "Albania": {"upper": [], "lower": [], "other": ["🇦🇱"]},
+        "Armenia": {"upper": [], "lower": [], "other": ["🇦🇲"]},
+        "Angola": {"upper": [], "lower": [], "other": ["🇦🇴"]},
+        "Antarctica": {"upper": [], "lower": [], "other": ["🇦🇶"]},
+        "Argentina": {"upper": [], "lower": [], "other": ["🇦🇷"]},
+        "American Samoa": {"upper": [], "lower": [], "other": ["🇦🇸"]},
+        "Austria": {"upper": [], "lower": [], "other": ["🇦🇹"]},
+        "Australia": {"upper": [], "lower": [], "other": ["🇦🇺"]},
+        "Aruba": {"upper": [], "lower": [], "other": ["🇦🇼"]},
+        "Aland_Islands": {"upper": [], "lower": [], "other": ["🇦🇽"]},
+        "Azerbaijan": {"upper": [], "lower": [], "other": ["🇦🇿"]},
+        "Bosnia_And_Herzegovina": {"upper": [], "lower": [], "other": ["🇧🇦"]},
+        "Barbados": {"upper": [], "lower": [], "other": ["🇧🇧"]},
+        "Bangladesh": {"upper": [], "lower": [], "other": ["🇧🇩"]},
+        "Belgium": {"upper": [], "lower": [], "other": ["🇧🇪"]},
+        "Burkina Faso": {"upper": [], "lower": [], "other": ["🇧🇫"]},
+        "Bulgaria": {"upper": [], "lower": [], "other": ["🇧🇬"]},
+        "Bahrain": {"upper": [], "lower": [], "other": ["🇧🇭"]},
+        "Burundi": {"upper": [], "lower": [], "other": ["🇧🇮"]},
+        "Benin": {"upper": [], "lower": [], "other": ["🇧🇯"]},
+        "St_Barthelemy": {"upper": [], "lower": [], "other": ["🇧🇱"]},
+        "Bermuda": {"upper": [], "lower": [], "other": ["🇧🇲"]},
+        "Brunei": {"upper": [], "lower": [], "other": ["🇧🇳"]},
+        "Bolivia": {"upper": [], "lower": [], "other": ["🇧🇴"]},
+        "Caribbean_Netherlands": {"upper": [], "lower": [], "other": ["🇧🇶"]},
+        "Brazil": {"upper": [], "lower": [], "other": ["🇧🇷"]},
+        "Bahamas": {"upper": [], "lower": [], "other": ["🇧🇸"]},
+        "Bhutan": {"upper": [], "lower": [], "other": ["🇧🇹"]},
+        "Bouvet_Island": {"upper": [], "lower": [], "other": ["🇧🇻"]},
+        "Botswana": {"upper": [], "lower": [], "other": ["🇧🇼"]},
+        "Belarus": {"upper": [], "lower": [], "other": ["🇧🇾"]},
+        "Belize": {"upper": [], "lower": [], "other": ["🇧🇿"]},
+        "Canada": {"upper": [], "lower": [], "other": ["🇨🇦"]},
+        "Cocos_Keeling_Islands": {"upper": [], "lower": [], "other": ["🇨🇨"]},
+        "Congo_Kinshasa": {"upper": [], "lower": [], "other": ["🇨🇩"]},
+        "Central_African_Republic": {"upper": [], "lower": [], "other": ["🇨🇫"]},
+        "Congo_Brazzaville": {"upper": [], "lower": [], "other": ["🇨🇬"]},
+        "Switzerland": {"upper": [], "lower": [], "other": ["🇨🇭"]},
+        "Cote_dIvoire": {"upper": [], "lower": [], "other": ["🇨🇮"]},
+        "Cook_Islands": {"upper": [], "lower": [], "other": ["🇨🇰"]},
+        "Chile": {"upper": [], "lower": [], "other": ["🇨🇱"]},
+        "Cameroon": {"upper": [], "lower": [], "other": ["🇨🇲"]},
+        "China": {"upper": [], "lower": [], "other": ["🇨🇳"]},
+        "Colombia": {"upper": [], "lower": [], "other": ["🇨🇴"]},
+        "Clipperton_Island": {"upper": [], "lower": [], "other": ["🇨🇵"]},
+        "Sark": {"upper": [], "lower": [], "other": ["🇨🇶"]},
+        "Costa_Rica": {"upper": [], "lower": [], "other": ["🇨🇷"]},
+        "Cuba": {"upper": [], "lower": [], "other": ["🇨🇺"]},
+        "Cape_Verde": {"upper": [], "lower": [], "other": ["🇨🇻"]},
+        "Curacao": {"upper": [], "lower": [], "other": ["🇨🇼"]},
+        "Christmas Island": {"upper": [], "lower": [], "other": ["🇨🇽"]},
+        "Cyprus": {"upper": [], "lower": [], "other": ["🇨🇾"]},
+        "Czechia": {"upper": [], "lower": [], "other": ["🇨🇿"]},
+        "Germany": {"upper": [], "lower": [], "other": ["🇩🇪"]},
+        "Diego Garcia": {"upper": [], "lower": [], "other": ["🇩🇬"]},
+        "Djibouti": {"upper": [], "lower": [], "other": ["🇩🇯"]},
+        "Denmark": {"upper": [], "lower": [], "other": ["🇩🇰"]},
+        "Dominica": {"upper": [], "lower": [], "other": ["🇩🇲"]},
+        "Dominican Republic": {"upper": [], "lower": [], "other": ["🇩🇴"]},
+        "Algeria": {"upper": [], "lower": [], "other": ["🇩🇿"]},
+        "Ceuta_And_Melilla": {"upper": [], "lower": [], "other": ["🇪🇦"]},
+        "Ecuador": {"upper": [], "lower": [], "other": ["🇪🇨"]},
+        "Estonia": {"upper": [], "lower": [], "other": ["🇪🇪"]},
+        "Egypt": {"upper": [], "lower": [], "other": ["🇪🇬"]},
+        "Western_Sahara": {"upper": [], "lower": [], "other": ["🇪🇭"]},
+        "Eritrea": {"upper": [], "lower": [], "other": ["🇪🇷"]},
+        "Spain": {"upper": [], "lower": [], "other": ["🇪🇸"]},
+        "Ethiopia": {"upper": [], "lower": [], "other": ["🇪🇹"]},
+        "European_Union": {"upper": [], "lower": [], "other": ["🇪🇺"]},
+        "Finland": {"upper": [], "lower": [], "other": ["🇫🇮"]},
+        "Fiji": {"upper": [], "lower": [], "other": ["🇫🇯"]},
+        "Falkland Islands": {"upper": [], "lower": [], "other": ["🇫🇰"]},
+        "Micronesia": {"upper": [], "lower": [], "other": ["🇫🇲"]},
+        "Faroe_Islands": {"upper": [], "lower": [], "other": ["🇫🇴"]},
+        "France": {"upper": [], "lower": [], "other": ["🇫🇷"]},
+        "Gabon": {"upper": [], "lower": [], "other": ["🇬🇦"]},
+        "United_Kingdom": {"upper": [], "lower": [], "other": ["🇬🇧"]},
+        "Grenada": {"upper": [], "lower": [], "other": ["🇬🇩"]},
+        "Georgia": {"upper": [], "lower": [], "other": ["🇬🇪"]},
+        "French_Guiana": {"upper": [], "lower": [], "other": ["🇬🇫"]},
+        "Guernsey": {"upper": [], "lower": [], "other": ["🇬🇬"]},
+        "Ghana": {"upper": [], "lower": [], "other": ["🇬🇭"]},
+        "Gibraltar": {"upper": [], "lower": [], "other": ["🇬🇮"]},
+        "Greenland": {"upper": [], "lower": [], "other": ["🇬🇱"]},
+        "Gambia": {"upper": [], "lower": [], "other": ["🇬🇲"]},
+        "Guinea": {"upper": [], "lower": [], "other": ["🇬🇳"]},
+        "Guadeloupe": {"upper": [], "lower": [], "other": ["🇬🇵"]},
+        "Equatorial_Guinea": {"upper": [], "lower": [], "other": ["🇬🇶"]},
+        "Greece": {"upper": [], "lower": [], "other": ["🇬🇷"]},
+        "South_Georgia_And_South_Sandwich_Islands": {"upper": [], "lower": [], "other": ["🇬🇸"]},
+        "Guatemala": {"upper": [], "lower": [], "other": ["🇬🇹"]},
+        "Guam": {"upper": [], "lower": [], "other": ["🇬🇺"]},
+        "Guinea_Bissau": {"upper": [], "lower": [], "other": ["🇬🇼"]},
+        "Guyana": {"upper": [], "lower": [], "other": ["🇬🇾"]},
+        "Hong_Kong_SAR_China": {"upper": [], "lower": [], "other": ["🇭🇰"]},
+        "Heard_And_McDonald_Islands": {"upper": [], "lower": [], "other": ["🇭🇲"]},
+        "Honduras": {"upper": [], "lower": [], "other": ["🇭🇳"]},
+        "Croatia": {"upper": [], "lower": [], "other": ["🇭🇷"]},
+        "Haiti": {"upper": [], "lower": [], "other": ["🇭🇹"]},
+        "Hungary": {"upper": [], "lower": [], "other": ["🇭🇺"]},
+        "Canary_Islands": {"upper": [], "lower": [], "other": ["🇮🇨"]},
+        "Indonesia": {"upper": [], "lower": [], "other": ["🇮🇩"]},
+        "Ireland": {"upper": [], "lower": [], "other": ["🇮🇪"]},
+        "Israel": {"upper": [], "lower": [], "other": ["🇮🇱"]},
+        "Isle_of_Man": {"upper": [], "lower": [], "other": ["🇮🇲"]},
+        "India": {"upper": [], "lower": [], "other": ["🇮🇳"]},
+        "British_Indian_Ocean_Territory": {"upper": [], "lower": [], "other": ["🇮🇴"]},
+        "Iraq": {"upper": [], "lower": [], "other": ["🇮🇶"]},
+        "Iran": {"upper": [], "lower": [], "other": ["🇮🇷"]},
+        "Iceland": {"upper": [], "lower": [], "other": ["🇮🇸"]},
+        "Italy": {"upper": [], "lower": [], "other": ["🇮🇹"]},
+        "Jersey": {"upper": [], "lower": [], "other": ["🇯🇪"]},
+        "Jamaica": {"upper": [], "lower": [], "other": ["🇯🇲"]},
+        "Jordan": {"upper": [], "lower": [], "other": ["🇯🇴"]},
+        "Japan": {"upper": [], "lower": [], "other": ["🇯🇵"]},
+        "Kenya": {"upper": [], "lower": [], "other": ["🇰🇪"]},
+        "Kyrgyzstan": {"upper": [], "lower": [], "other": ["🇰🇬"]},
+        "Cambodia": {"upper": [], "lower": [], "other": ["🇰🇭"]},
+        "Kiribati": {"upper": [], "lower": [], "other": ["🇰🇮"]},
+        "Comoros": {"upper": [], "lower": [], "other": ["🇰🇲"]},
+        "St_Kitts_And_Nevis": {"upper": [], "lower": [], "other": ["🇰🇳"]},
+        "North_Korea": {"upper": [], "lower": [], "other": ["🇰🇵"]},
+        "South_Korea": {"upper": [], "lower": [], "other": ["🇰🇷"]},
+        "Kuwait": {"upper": [], "lower": [], "other": ["🇰🇼"]},
+        "Cayman_Islands": {"upper": [], "lower": [], "other": ["🇰🇾"]},
+        "Kazakhstan": {"upper": [], "lower": [], "other": ["🇰🇿"]},
+        "Laos": {"upper": [], "lower": [], "other": ["🇱🇦"]},
+        "Lebanon": {"upper": [], "lower": [], "other": ["🇱🇧"]},
+        "St_Lucia": {"upper": [], "lower": [], "other": ["🇱🇨"]},
+        "Liechtenstein": {"upper": [], "lower": [], "other": ["🇱🇮"]},
+        "Sri_Lanka": {"upper": [], "lower": [], "other": ["🇱🇰"]},
+        "Liberia": {"upper": [], "lower": [], "other": ["🇱🇷"]},
+        "Lesotho": {"upper": [], "lower": [], "other": ["🇱🇸"]},
+        "Lithuania": {"upper": [], "lower": [], "other": ["🇱🇹"]},
+        "Luxembourg": {"upper": [], "lower": [], "other": ["🇱🇺"]},
+        "Latvia": {"upper": [], "lower": [], "other": ["🇱🇻"]},
+        "Libya": {"upper": [], "lower": [], "other": ["🇱🇾"]},
+        "Morocco": {"upper": [], "lower": [], "other": ["🇲🇦"]},
+        "Monaco": {"upper": [], "lower": [], "other": ["🇲🇨"]},
+        "Moldova": {"upper": [], "lower": [], "other": ["🇲🇩"]},
+        "Montenegro": {"upper": [], "lower": [], "other": ["🇲🇪"]},
+        "St_Martin": {"upper": [], "lower": [], "other": ["🇲🇫"]},
+        "Madagascar": {"upper": [], "lower": [], "other": ["🇲🇬"]},
+        "Marshall_Islands": {"upper": [], "lower": [], "other": ["🇲🇭"]},
+        "North Macedonia": {"upper": [], "lower": [], "other": ["🇲🇰"]},
+        "Mali": {"upper": [], "lower": [], "other": ["🇲🇱"]},
+        "Myanmar_Burma": {"upper": [], "lower": [], "other": ["🇲🇲"]},
+        "Mongolia": {"upper": [], "lower": [], "other": ["🇲🇳"]},
+        "Macao_SAR_China": {"upper": [], "lower": [], "other": ["🇲🇴"]},
+        "Northern_Mariana_Islands": {"upper": [], "lower": [], "other": ["🇲🇵"]},
+        "Martinique": {"upper": [], "lower": [], "other": ["🇲🇶"]},
+        "Mauritania": {"upper": [], "lower": [], "other": ["🇲🇷"]},
+        "Montserrat": {"upper": [], "lower": [], "other": ["🇲🇸"]},
+        "Malta": {"upper": [], "lower": [], "other": ["🇲🇹"]},
+        "Mauritius": {"upper": [], "lower": [], "other": ["🇲🇺"]},
+        "Maldives": {"upper": [], "lower": [], "other": ["🇲🇻"]},
+        "Malawi": {"upper": [], "lower": [], "other": ["🇲🇼"]},
+        "Mexico": {"upper": [], "lower": [], "other": ["🇲🇽"]},
+        "Malaysia": {"upper": [], "lower": [], "other": ["🇲🇾"]},
+        "Mozambique": {"upper": [], "lower": [], "other": ["🇲🇿"]},
+        "Namibia": {"upper": [], "lower": [], "other": ["🇳🇦"]},
+        "New_Caledonia": {"upper": [], "lower": [], "other": ["🇳🇨"]},
+        "Niger": {"upper": [], "lower": [], "other": ["🇳🇪"]},
+        "Norfolk_Island": {"upper": [], "lower": [], "other": ["🇳🇫"]},
+        "Nigeria": {"upper": [], "lower": [], "other": ["🇳🇬"]},
+        "Nicaragua": {"upper": [], "lower": [], "other": ["🇳🇮"]},
+        "Netherlands": {"upper": [], "lower": [], "other": ["🇳🇱"]},
+        "Norway": {"upper": [], "lower": [], "other": ["🇳🇴"]},
+        "Nepal": {"upper": [], "lower": [], "other": ["🇳🇵"]},
+        "Nauru": {"upper": [], "lower": [], "other": ["🇳🇷"]},
+        "Niue": {"upper": [], "lower": [], "other": ["🇳🇺"]},
+        "New_Zealand": {"upper": [], "lower": [], "other": ["🇳🇿"]},
+        "Oman": {"upper": [], "lower": [], "other": ["🇴🇲"]},
+        "Panama": {"upper": [], "lower": [], "other": ["🇵🇦"]},
+        "Peru": {"upper": [], "lower": [], "other": ["🇵🇪"]},
+        "French_Polynesia": {"upper": [], "lower": [], "other": ["🇵🇫"]},
+        "Papua_New_Guinea": {"upper": [], "lower": [], "other": ["🇵🇬"]},
+        "Philippines": {"upper": [], "lower": [], "other": ["🇵🇭"]},
+        "Pakistan": {"upper": [], "lower": [], "other": ["🇵🇰"]},
+        "Poland": {"upper": [], "lower": [], "other": ["🇵🇱"]},
+        "St_Pierre_And_Miquelon": {"upper": [], "lower": [], "other": ["🇵🇲"]},
+        "Pitcairn_Islands": {"upper": [], "lower": [], "other": ["🇵🇳"]},
+        "Puerto_Rico": {"upper": [], "lower": [], "other": ["🇵🇷"]},
+        "Palestinian_Territories": {"upper": [], "lower": [], "other": ["🇵🇸"]},
+        "Portugal": {"upper": [], "lower": [], "other": ["🇵🇹"]},
+        "Palau": {"upper": [], "lower": [], "other": ["🇵🇼"]},
+        "Paraguay": {"upper": [], "lower": [], "other": ["🇵🇾"]},
+        "Qatar": {"upper": [], "lower": [], "other": ["🇶🇦"]},
+        "Reunion": {"upper": [], "lower": [], "other": ["🇷🇪"]},
+        "Romania": {"upper": [], "lower": [], "other": ["🇷🇴"]},
+        "Serbia": {"upper": [], "lower": [], "other": ["🇷🇸"]},
+        "Russia": {"upper": [], "lower": [], "other": ["🇷🇺"]},
+        "Rwanda": {"upper": [], "lower": [], "other": ["🇷🇼"]},
+        "Saudi_Arabia": {"upper": [], "lower": [], "other": ["🇸🇦"]},
+        "Solomon_Islands": {"upper": [], "lower": [], "other": ["🇸🇧"]},
+        "Seychelles": {"upper": [], "lower": [], "other": ["🇸🇨"]},
+        "Sudan": {"upper": [], "lower": [], "other": ["🇸🇩"]},
+        "Sweden": {"upper": [], "lower": [], "other": ["🇸🇪"]},
+        "Singapore": {"upper": [], "lower": [], "other": ["🇸🇬"]},
+        "St_Helena": {"upper": [], "lower": [], "other": ["🇸🇭"]},
+        "Slovenia": {"upper": [], "lower": [], "other": ["🇸🇮"]},
+        "Svalbard_And_Jan_Mayen": {"upper": [], "lower": [], "other": ["🇸🇯"]},
+        "Slovakia": {"upper": [], "lower": [], "other": ["🇸🇰"]},
+        "Sierra_Leone": {"upper": [], "lower": [], "other": ["🇸🇱"]},
+        "San_Marino": {"upper": [], "lower": [], "other": ["🇸🇲"]},
+        "Senegal": {"upper": [], "lower": [], "other": ["🇸🇳"]},
+        "Somalia": {"upper": [], "lower": [], "other": ["🇸🇴"]},
+        "Suriname": {"upper": [], "lower": [], "other": ["🇸🇷"]},
+        "South_Sudan": {"upper": [], "lower": [], "other": ["🇸🇸"]},
+        "Sao_Tome_And_Principe": {"upper": [], "lower": [], "other": ["🇸🇹"]},
+        "El_Salvador": {"upper": [], "lower": [], "other": ["🇸🇻"]},
+        "Sint_Maarten": {"upper": [], "lower": [], "other": ["🇸🇽"]},
+        "Syria": {"upper": [], "lower": [], "other": ["🇸🇾"]},
+        "Eswatini": {"upper": [], "lower": [], "other": ["🇸🇿"]},
+        "Tristan_da_Cunha": {"upper": [], "lower": [], "other": ["🇹🇦"]},
+        "Turks_And_Caicos_Islands": {"upper": [], "lower": [], "other": ["🇹🇨"]},
+        "Chad": {"upper": [], "lower": [], "other": ["🇹🇩"]},
+        "French_Southern_Territories": {"upper": [], "lower": [], "other": ["🇹🇫"]},
+        "Togo": {"upper": [], "lower": [], "other": ["🇹🇬"]},
+        "Thailand": {"upper": [], "lower": [], "other": ["🇹🇭"]},
+        "Tajikistan": {"upper": [], "lower": [], "other": ["🇹🇯"]},
+        "Tokelau": {"upper": [], "lower": [], "other": ["🇹🇰"]},
+        "Timor_Leste": {"upper": [], "lower": [], "other": ["🇹🇱"]},
+        "Turkmenistan": {"upper": [], "lower": [], "other": ["🇹🇲"]},
+        "Tunisia": {"upper": [], "lower": [], "other": ["🇹🇳"]},
+        "Tonga": {"upper": [], "lower": [], "other": ["🇹🇴"]},
+        "Turkiye": {"upper": [], "lower": [], "other": ["🇹🇷"]},
+        "Trinidad_And_Tobago": {"upper": [], "lower": [], "other": ["🇹🇹"]},
+        "Tuvalu": {"upper": [], "lower": [], "other": ["🇹🇻"]},
+        "Taiwan": {"upper": [], "lower": [], "other": ["🇹🇼"]},
+        "Tanzania": {"upper": [], "lower": [], "other": ["🇹🇿"]},
+        "Ukraine": {"upper": [], "lower": [], "other": ["🇺🇦"]},
+        "Uganda": {"upper": [], "lower": [], "other": ["🇺🇬"]},
+        "US_Outlying_Islands": {"upper": [], "lower": [], "other": ["🇺🇲"]},
+        "United_Nations": {"upper": [], "lower": [], "other": ["🇺🇳"]},
+        "United_States": {"upper": [], "lower": [], "other": ["🇺🇸"]},
+        "Uruguay": {"upper": [], "lower": [], "other": ["🇺🇾"]},
+        "Uzbekistan": {"upper": [], "lower": [], "other": ["🇺🇿"]},
+        "Vatican_City": {"upper": [], "lower": [], "other": ["🇻🇦"]},
+        "St_Vincent_And_Grenadines": {"upper": [], "lower": [], "other": ["🇻🇨"]},
+        "Venezuela": {"upper": [], "lower": [], "other": ["🇻🇪"]},
+        "British_Virgin_Islands": {"upper": [], "lower": [], "other": ["🇻🇬"]},
+        "US_Virgin_Islands": {"upper": [], "lower": [], "other": ["🇻🇮"]},
+        "Vietnam": {"upper": [], "lower": [], "other": ["🇻🇳"]},
+        "Vanuatu": {"upper": [], "lower": [], "other": ["🇻🇺"]},
+        "Wallis_And_Futuna": {"upper": [], "lower": [], "other": ["🇼🇫"]},
+        "Samoa": {"upper": [], "lower": [], "other": ["🇼🇸"]},
+        "Kosovo": {"upper": [], "lower": [], "other": ["🇽🇰"]},
+        "Yemen": {"upper": [], "lower": [], "other": ["🇾🇪"]},
+        "Mayotte": {"upper": [], "lower": [], "other": ["🇾🇹"]},
+        "South_Africa": {"upper": [], "lower": [], "other": ["🇿🇦"]},
+        "Zambia": {"upper": [], "lower": [], "other": ["🇿🇲"]},
+        "Zimbabwe": {"upper": [], "lower": [], "other": ["🇿🇼"]},
+        "England": {"upper": [], "lower": [], "other": ["🏴󠁧󠁢󠁥󠁮󠁧󠁿"]},
+        "Scotland": {"upper": [], "lower": [], "other": ["🏴󠁧󠁢󠁳󠁣󠁴󠁿"]},
+        "Wales": {"upper": [], "lower": [], "other": ["🏴󠁧󠁢󠁷󠁬󠁳󠁿"]}
+      }
     }
   }
 }
