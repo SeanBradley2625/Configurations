@@ -1,0 +1,10 @@
+suppress-errors
+reload-period 1
+
+item-limit 5000
+item-limit-unread true
+item-limit-important false
+
+scrolloff 7
+
+notification-command ""
